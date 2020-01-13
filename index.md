@@ -2,11 +2,11 @@
 
 ---
 
-[BLOODHELL](/bloodhell)
+[BLOODHELL](https://github.com/GriffinShea/BLOODHELL)
 <img src="images/BLOODHELL.png?raw=true"/>
 
 ---
-[SVG Curling](/svg_curling)
+[SVG Curling](https://github.com/GriffinShea/SVG_Curling)
 <img src="images/curling.png?raw=true"/>
 
 
