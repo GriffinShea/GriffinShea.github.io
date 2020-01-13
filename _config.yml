@@ -1,10 +1,10 @@
 title: Griffin Shea # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Carleton University Computer Science student<br>
-  Computer Game Development stream<br>
+  Carleton University Computer Science student<br><br>
+  Computer Game Development stream<br><br>
   griffin.shea@carleton.ca
-  <br><br>
+  <br><br><br>
   This page showcases a few projects I have submitted as school assignments or created in my own time.<br>
   All work is my own except where it is otherwise noted.
   <br><br>
