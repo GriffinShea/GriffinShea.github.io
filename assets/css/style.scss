@@ -4,5 +4,8 @@
 @import "{{ site.theme }}";
 body {
   background-image: url("../../images/background.jpg");
-  color: black;
+  color: orange;
+}
+a {
+  color: yellow;
 }
