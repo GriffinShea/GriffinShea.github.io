@@ -2,11 +2,11 @@
 
 ---
 
-###[BLOODHELL](/bloodhell)
+[BLOODHELL](/bloodhell)
 <img src="images/BLOODHELL.png?raw=true"/>
 
 ---
-###[SVG Curling](/svg_curling)
+[SVG Curling](/svg_curling)
 <img src="images/curling.png?raw=true"/>
 
 
