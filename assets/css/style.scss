@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "
+@import "{{ site.theme }}";
+
 body {
  background-image: url("background.jpg");
 }
-";
