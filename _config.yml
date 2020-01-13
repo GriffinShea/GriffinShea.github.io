@@ -4,8 +4,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   Carleton University<br>
   Bachelor of Computer Science, Computer Game Development
   <br><br>
-  Hi, this github page showcases a few of my projects created as school assignments or in my own time. All work is my own unless otherwise stated.
+  Hi, this page showcases a few of my projects that were created as school assignments or in my own time.<br>
+  All work is my own unless otherwise stated.
   <br><br>
   
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minima
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
