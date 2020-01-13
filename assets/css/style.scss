@@ -2,4 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
+#backgroundImage {
 background-image: url("background.jpg");
+}
