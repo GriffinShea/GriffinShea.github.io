@@ -7,5 +7,5 @@ description: > # your text below (remove <br> elements if you don't need line br
   Hi, this github page showcases a few of my projects created as school assignments or in my own time. All work is my own unless otherwise stated.
   <br><br>
   
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
