@@ -1,9 +1,5 @@
 ## Portfolio
 
-| foo | bar |
-| --- | --- |
-| baz | bim |
-
 ---
 [BUGMAN ASSAULT](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 <div>
