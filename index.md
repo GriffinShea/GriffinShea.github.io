@@ -1,6 +1,7 @@
 ## Portfolio
 
-
+<div class="row">
+	<div class="column">
 ---
 [BUGMAN ASSAULT](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 <img src="images/BUGMAN_ASSAULT.png?raw=true"/>
@@ -17,10 +18,12 @@
 [BLOODHELL](https://github.com/GriffinShea/BLOODHELL)
 <img src="images/BLOODHELL.png?raw=true"/>
 
-
+	</div>
+	<div class="column">
+		<p>hiii</p>
+	</div>
+</div>
 
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
