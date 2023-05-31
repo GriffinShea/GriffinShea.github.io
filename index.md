@@ -1,10 +1,19 @@
 ## Portfolio
 
-<div class="row">
-	<div class="column">
+| foo | bar |
+| --- | --- |
+| baz | bim |
+
 ---
 [BUGMAN ASSAULT](https://github.com/GriffinShea/BUGMAN-ASSAULT)
-<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+<div>
+	<div class="column">
+		<p>Description???</p>
+	</div>
+	<div class="column">
+		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+	</div>
+</div>
 
 ---
 [Tower Defence](https://github.com/GriffinShea/Tower_Defence)
@@ -18,11 +27,6 @@
 [BLOODHELL](https://github.com/GriffinShea/BLOODHELL)
 <img src="images/BLOODHELL.png?raw=true"/>
 
-	</div>
-	<div class="column">
-		<p>hiii</p>
-	</div>
-</div>
 
 
 
