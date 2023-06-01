@@ -20,7 +20,7 @@
 
 ### [SVG Curling](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
-	<div class="column" style="background-color:#9A98B5;">
+	<div class="column">
 		<p>aaa</p>
 	</div>
 	<div class="column">
@@ -32,7 +32,7 @@
 
 ### [BLOODHELL](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
-	<div class="column" style="background-color:#9A98B5;">
+	<div class="column">
 		<p>BLOODHELL is a dark fantasy themed </p>
 	</div>
 	<div class="column">
