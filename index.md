@@ -1,4 +1,4 @@
-### [BUGMAN ASSAULT](https://github.com/GriffinShea/BUGMAN-ASSAULT)
+### BUGMAN ASSAULT [link](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 <div class="row">
 	<div class="column">
 		
@@ -20,7 +20,7 @@
 
 <div><br></div>
 
-### [SVG Curling](https://github.com/GriffinShea/SVG_Curling)
+### SVG Curling [link](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
 		<p>aaa</p>
@@ -33,7 +33,7 @@
 <br>
 <br>
 
-### [BLOODHELL](https://github.com/GriffinShea/BLOODHELL)
+### BLOODHELL [link](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
 	<div class="column">
 		<p>BLOODHELL is a dark fantasy themed </p>
