@@ -1,19 +1,20 @@
-title:
-    Griffin Shea<br>
-	Carleton University Graduate<br>
-	School of Computer Science<br>
-	Computer Game Development Stream<br>
-    Minor in History<br>
+title: Griffin Shea<br>
+
+description0:
+  Carleton University Graduate<br>
+  B.C.S. Honours<br>
+  Computer Game Development<br>
+  Minor in History<br>
     
 logo: "/images/logo.png?raw=true"
 
-description:
-    <br>
-	This page showcases a few of my game projects.<br>
-	All work is my own unless noted otherwise.<br>
-	<br>
-	Contact me: <a href="griffin.shea@carleton.ca">griffin.shea@carleton.ca</a><br>
-	<br>
+description1:
+  <br>
+  This page showcases a few of my game projects.<br>
+  All work is my own unless noted otherwise.<br>
+  <br>
+  Contact me: <a href="griffin.shea@carleton.ca">griffin.shea@carleton.ca</a><br>
+  <br>
   
 theme: jekyll-theme-minimal
 
