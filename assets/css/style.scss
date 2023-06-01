@@ -5,26 +5,28 @@
 body {
   background-image: url("../../images/background.jpg");
   color: black;
-  font-size: 110%;
+  font-size: 100%;
 }
 
 a {
-  color: #ad9458;
+  color: #e6c5bc;
 }
 
 .column {
   float: left;
   width: 50%;
+  padding: 5px;
 }
 .row {
   float: left;
-  background-color: #c28496;
+  background-color: #dec4e9;
+  padding: 10px;
 }
 
 .wrapper {
-  width:1260px;
+  width:1360px;
 }
 
 section {
-  width:900px;
+  width:1000px;
 }
