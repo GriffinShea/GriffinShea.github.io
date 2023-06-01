@@ -37,6 +37,8 @@
 <div class="row">
 	<div class="column">
 		<p>BLOODHELL is a dark fantasy themed </p>
+		<p>Explore a hellish dungeon, but keep your sword drawn and your eyes peeled because danger lurks around every corner. Hack and slash your way through vicious waves of animated Green Slime. Dodge the lethal fire orbs of the tricky Lesser Demon or, if you are brave enough, use your blade to redirect the flame towards your foes! Just make sure to remember to keep an eye out for those precious potions of regeneration...</p>
+		<p>Do you have what it takes to escape from BLOODHELL?</p>
 	</div>
 	<div class="column">
 		<img src="images/BLOODHELL.png?raw=true"/>
