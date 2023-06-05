@@ -18,7 +18,7 @@
 	</div>
 </div>
 
-<div></div>
+<hr>
 
 ### SVG Curling [link](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
@@ -31,7 +31,7 @@
 	</div>
 </div>
 
-<div><p>.</p></div>
+<hr>
 
 ### BLOODHELL [link](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
@@ -45,5 +45,3 @@
 	</div>
 </div>
 
-<br>
-<br>
