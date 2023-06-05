@@ -4,7 +4,7 @@
 		
 		<p>In the year 2222, the vicious Bugmen of Bugulon Prime landed on Earth and began slaughtering human populations. The EUBDC (Earth United Bug Defence Coalition) was assembled in order to organize a counteroffensive to these invading forces. The war has been long and brutal but the EUBDC has finally pushed the Bugmen across the stars all the way back to their home planet. All that remains to be done is to eliminate the hive on Bugulon Prime...</p>
 		<p>In BUGMAN ASSAULT, <b>YOU</b> have been chosen to take on the role of Field Marshal to lead the EUBDC invasion forces on Bugulon Prime!</p>
-		<p>Harvest precious resources from the surface of an alien world.</p>
+		<p>Harvest precious resources from the surface of an alien world. Protect your base from enemy wave assaults or hunt down Bugman scouts (yellow) before they can alert the hive of your location. Expand production by securing distant resources and construct an army of tanks to wipe out the hive and finally bring an end to this brutal war...</p>
 		<p>Built in Unity as a course project for COMP-4501 (Advanced Computer Game Design and Development) at Carleton University (February - April 2022).</p>
 		<p>Technical Achievements:</p>
 		<ul>
@@ -23,7 +23,8 @@
 ### SVG Curling [link](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
-		<p>aaa</p>
+		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a web socket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG library.</p>
+		<p>Built as an assignment for COMP-2406 (Fundamentals of Web Applications) at Carleton University (November 2018).
 	</div>
 	<div class="column">
 		<img src="images/curling.png?raw=true"/>
