@@ -1,4 +1,6 @@
-### BUGMAN ASSAULT [link](https://github.com/GriffinShea/BUGMAN-ASSAULT)
+# DEVELOPMENT PORTFOLIO
+
+### BUGMAN ASSAULT [code available](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 <div class="row">
 	<div class="column">
 		
@@ -18,22 +20,22 @@
 	</div>
 </div>
 
-<hr>
+<div style="height: 20px;"><hr></div>
 
-### SVG Curling [link](https://github.com/GriffinShea/SVG_Curling)
+### SVG Curling [code available](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
-		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a web socket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG library.</p>
-		<p>Built as an assignment for COMP-2406 (Fundamentals of Web Applications) at Carleton University (November 2018).</p>
+		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a web socket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG (Scalable Vector Graphics) library.</p>
+		<p>Created as an assignment for COMP-2406 (Fundamentals of Web Applications) at Carleton University (November 2018).</p>
 	</div>
 	<div class="column">
 		<img src="images/curling.png?raw=true"/>
 	</div>
 </div>
 
-<hr>
+<div style="height: 20px;"><hr></div>
 
-### BLOODHELL [link](https://github.com/GriffinShea/BLOODHELL)
+### BLOODHELL [code available](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
 	<div class="column">
 		<p>BLOODHELL is a dark fantasy themed </p>
