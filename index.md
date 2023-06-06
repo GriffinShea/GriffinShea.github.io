@@ -21,9 +21,6 @@
 </div>
 
 
-<div><p> </p></div>
-
-
 ### SVG Curling [code available](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
@@ -34,9 +31,6 @@
 		<img src="images/curling.png?raw=true"/>
 	</div>
 </div>
-
-
-<div><p>	</p></div>
 
 
 ### BLOODHELL [code available](https://github.com/GriffinShea/BLOODHELL)
