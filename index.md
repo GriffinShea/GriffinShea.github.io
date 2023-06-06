@@ -20,7 +20,9 @@
 	</div>
 </div>
 
+
 <div style="height: 20px;"><hr></div>
+
 
 ### SVG Curling [code available](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
@@ -33,7 +35,9 @@
 	</div>
 </div>
 
+
 <div style="height: 20px;"><hr></div>
+
 
 ### BLOODHELL [code available](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
