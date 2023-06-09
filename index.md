@@ -36,9 +36,12 @@
 ### BLOODHELL [code available](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
 	<div class="column">
-		<p>BLOODHELL is a dark fantasy themed </p>
 		<p>Explore a hellish dungeon, but keep your sword drawn and your eyes peeled because danger lurks around every corner. Hack and slash your way through vicious waves of animated Green Slime. Dodge the lethal fire orbs of the tricky Lesser Demon or, if you are brave enough, use your blade to redirect the flame towards your foes! Just make sure to remember to keep an eye out for those precious potions of regeneration...</p>
 		<p>Do you have what it takes to escape from BLOODHELL?</p>
+		<p>This game was created to fulfil an assignment for COMP-1501 (Introduction to Computer Game Design) at Carleton University (January-February 2018). The task was to elaborate on a simple “toy” program given by the course instructor and use a design workflow inspired by the mechanics-dynamics-aesthetics (MDA) framework for analyzing games to turn this simple mechanic into a full-fledged game.</p>
+		<p>The original program which made up the basic gameplay mechanic for BLOODHELL involved a rotating line colliding with circle colliders in 2D space. I incorporated movement for the circles and the origin of the rotating line as well as user input to add dynamics to the gameplay and then decided on a dark fantasy aesthetic to guide myself in filling out the rest of the game.</p>
+		<p>The setting hoped to combine elements of Hell and the labyrinthine dungeons found in classic fantasy roleplaying games. I setup basic AI to control the actions of enemies and made simple animations to give them life. To add a final element of challenge I gave the player character the ability to deflect fireballs by hitting them with their sword. Using the deflected fireball to eliminate foes is awarded extra points. I also made sure that a fireball hit by the player’s sword will never deflect towards them because in testing that was found to be not very fun.
+		<p>The repository includes the source code as well as a Windows executable so you can try out BLOODHELL for yourself! This was the first game I produced during my time at Carleton so much of the code contains inefficient functions, however I am still quite proud of how I did with this assignment 😊</p>
 	</div>
 	<div class="column">
 		<img src="images/BLOODHELL.png?raw=true"/>
