@@ -13,7 +13,8 @@
 			<li>Developed a real-time strategy game in Unity utilizing game engine functions to fulfill design guidelines and provide a player experience emphasizing strategic resource management and decision making</li>
 			<li>Programmed high-level game logic in C# using a component-based architecture to organize and reuse code for update steps and interactions common between object types</li>
 			<li>Implemented artificial intelligence and animation using finite-state machines to reduce the complexity of controlling the autonomous behaviors of player-controlled units and enemies</li>
-		</ul>  
+		</ul>
+		<p>The repository includes a Windows executable build and the Unity source project folder.</p>
 	</div>
 	<div class="column">
 		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
@@ -30,6 +31,7 @@
 	<div class="column">
 		<img src="images/curling.png?raw=true"/>
 	</div>
+	<p>The repository contains all the files needed to run the game and a readme file which should instruct you how to run it.</p>
 </div>
 
 
