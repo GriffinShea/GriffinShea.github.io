@@ -45,6 +45,7 @@
 	</div>
 	<div class="column">
 		<img src="images/BLOODHELL.png?raw=true"/>
+		<img src="images/toy_program.png?raw=true"/>
 	</div>
 </div>
 
