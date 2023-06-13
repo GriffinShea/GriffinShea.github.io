@@ -27,11 +27,11 @@
 	<div class="column">
 		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a web socket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG (Scalable Vector Graphics) library.</p>
 		<p>Created as an assignment for COMP-2406 (Fundamentals of Web Applications) at Carleton University (November 2018).</p>
+		<p>The repository contains all the files needed to run the game and a readme file which should instruct you how to run it.</p>
 	</div>
 	<div class="column">
 		<img src="images/curling.png?raw=true"/>
 	</div>
-	<p>The repository contains all the files needed to run the game and a readme file which should instruct you how to run it.</p>
 </div>
 
 
