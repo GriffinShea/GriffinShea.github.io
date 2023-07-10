@@ -4,9 +4,12 @@
 <div class="row">
 	<div class="column">
 		
+		<h5>Plot Synopsis</h5>
 		<p>In the year 2222, the vicious Bugmen of Bugulon Prime landed on Earth and began slaughtering human populations. The EUBDC (Earth United Bug Defence Coalition) was assembled in order to organize a counteroffensive to these invading forces. The war has been long and brutal but the EUBDC has finally pushed the Bugmen across the stars all the way back to their home planet. All that remains to be done is to eliminate the hive on Bugulon Prime...</p>
 		<p>In BUGMAN ASSAULT, <b>YOU</b> have been chosen to take on the role of Field Marshal to lead the EUBDC invasion forces on Bugulon Prime!</p>
+		<h5>Gameplay</h5>
 		<p>Harvest precious resources from the surface of an alien world. Protect your base from enemy wave assaults or hunt down Bugman scouts (yellow) before they can alert the hive of your location. Expand production by securing distant resources and construct an army of tanks to wipe out the hive and finally bring an end to this brutal war...</p>
+		<h5>Information</h5>
 		<p>Built in Unity as a course project for COMP-4501 (Advanced Computer Game Design and Development) at Carleton University (February - April 2022).</p>
 		<p>Technical Achievements:</p>
 		<ul>
