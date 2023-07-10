@@ -8,9 +8,9 @@
 		<p>In BUGMAN ASSAULT, <b>YOU</b> have been chosen to take on the role of Field Marshal to lead the EUBDC invasion forces on Bugulon Prime!</p>
 		<h5>Gameplay Description</h5>
 		<p>Harvest precious resources from the surface of an alien world. Protect your base from enemy wave assaults or hunt down Bugman scouts (yellow) before they can alert the hive of your location. Expand production by securing distant resources and construct an army of tanks to wipe out the hive and finally bring an end to this brutal war...</p>
-		<h5>Technical Information</h5>
+		<h5>Project Information</h5>
 		<p>Built in Unity as a course project for COMP-4501 (Advanced Computer Game Design and Development) at Carleton University (February - April 2022).</p>
-		<p>Achievements:</p>
+		<p>Technical Achievements:</p>
 		<ul>
 			<li>Developed a real-time strategy game in Unity utilizing game engine functions to fulfill design guidelines and provide a player experience emphasizing strategic resource management and decision making</li>
 			<li>Programmed high-level game logic in C# using a component-based architecture to organize and reuse code for update steps and interactions common between object types</li>
