@@ -1,6 +1,6 @@
-## DEVELOPMENT PORTFOLIO
+# DEVELOPMENT PORTFOLIO
 
-### BUGMAN ASSAULT [code available](https://github.com/GriffinShea/BUGMAN-ASSAULT)
+## BUGMAN ASSAULT [code available](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 <div class="row">
 	<div class="column">
 		<h5>Plot Synopsis</h5>
@@ -24,7 +24,7 @@
 </div>
 
 
-### SVG Curling [code available](https://github.com/GriffinShea/SVG_Curling)
+## SVG Curling [code available](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
 		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a web socket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG (Scalable Vector Graphics) library.</p>
@@ -37,7 +37,7 @@
 </div>
 
 
-### BLOODHELL [code available](https://github.com/GriffinShea/BLOODHELL)
+## BLOODHELL [code available](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
 	<div class="column">
 		<h5>Game Synopsis</h5>
