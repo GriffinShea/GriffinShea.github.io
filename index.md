@@ -1,11 +1,5 @@
 # DEVELOPMENT PORTFOLIO
 
-
-<a href="#BUGMAN">BUGMAN ASSAULT</a>
-<a href="#SVG">SVG Curling</a>
-<a href="#BLOODHELL">BLOODHELL</a>
-<br>
-
 <a id="BUGMAN"></a>
 ## BUGMAN ASSAULT [code available](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 <div class="row">
