@@ -1,5 +1,6 @@
 # DEVELOPMENT PORTFOLIO
 
+<a id="BUGMAN"></a>
 ## BUGMAN ASSAULT [code available](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 <div class="row">
 	<div class="column">
@@ -23,7 +24,7 @@
 	</div>
 </div>
 
-
+<a id="SVG"></a>
 ## SVG Curling [code available](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
@@ -37,6 +38,7 @@
 </div>
 
 
+<a id="BLOODHELL"></a>
 ## BLOODHELL [code available](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
 	<div class="column">
