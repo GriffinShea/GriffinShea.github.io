@@ -5,15 +5,17 @@ description0: "
   B.C.S. Honours<br>
   Computer Game Development<br>
   Minor in History<br>
-  "
-
-description1: "
+  <br>
   <br>
   This page showcases a few of my game projects.<br>
   All work is my own unless noted otherwise.<br>
   <br>
+  <br>
   Contact me: griffin.shea@carleton.ca<br>
   <br>
+  "
+
+description1: "
   "
   
 theme: jekyll-theme-minimal
