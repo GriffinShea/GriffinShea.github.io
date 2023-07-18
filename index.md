@@ -1,4 +1,5 @@
 # DEVELOPMENT PORTFOLIO
+### [BUGMAN ASSAULT](#BUGMAN) / [SVG Curling](#SVG) / [BLOODHELL](#BLOODHELL)
 
 <a id="BUGMAN"></a>
 ## BUGMAN ASSAULT [code available](https://github.com/GriffinShea/BUGMAN-ASSAULT)
