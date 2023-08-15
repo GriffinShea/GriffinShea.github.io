@@ -2,7 +2,7 @@
 ### [BUGMAN ASSAULT](#BUGMAN) / [SVG Curling](#SVG) / [BLOODHELL](#BLOODHELL)
 
 <a id="BUGMAN"></a>
-## BUGMAN ASSAULT [code available](https://github.com/GriffinShea/BUGMAN-ASSAULT)
+## BUGMAN ASSAULT [download](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 <div class="row">
 	<div class="column">
 		<h5>Plot Synopsis</h5>
@@ -14,8 +14,9 @@
 		
 		<h5>Project Information</h5>
 		<p>Built in Unity as a course project for COMP-4501 (Advanced Computer Game Design and Development) at Carleton University (February - April 2022).</p>
-		<p>Technical Achievements:</p>
+		<p>Accomplishments:</p>
 		<ul>
+			<li>•	Designed game objects and interactions using class-responsibility-collaboration cards and a game design document to itemize and prioritize development tasks in order to meet deliverable deadlines</li>
 			<li>Developed a real-time strategy game in Unity utilizing game engine functions to fulfill design guidelines and provide a player experience emphasizing strategic resource management and decision making</li>
 			<li>Programmed high-level game logic in C# using a component-based architecture to organize and reuse code for update steps and interactions common between object types</li>
 			<li>Implemented artificial intelligence and animation using finite-state machines to reduce the complexity of controlling the autonomous behaviors of player-controlled units and enemies</li>
@@ -28,7 +29,7 @@
 </div>
 
 <a id="SVG"></a>
-## SVG Curling [code available](https://github.com/GriffinShea/SVG_Curling)
+## SVG Curling [download](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
 		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a web socket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG (Scalable Vector Graphics) library.</p>
@@ -42,7 +43,7 @@
 
 
 <a id="BLOODHELL"></a>
-## BLOODHELL [code available](https://github.com/GriffinShea/BLOODHELL)
+## BLOODHELL [download](https://github.com/GriffinShea/BLOODHELL)
 <div class="row">
 	<div class="column">
 		<h5>Game Synopsis</h5>
