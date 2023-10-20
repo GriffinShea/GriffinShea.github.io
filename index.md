@@ -1,8 +1,8 @@
 # DEVELOPMENT PORTFOLIO
-### [Astrosurfer](#Astrosurfer)/ [BUGMAN ASSAULT](#BUGMAN) / [SVG Curling](#SVG) / [BLOODHELL](#BLOODHELL)
+### [ASTROSURFER](#Astrosurfer)/ [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG) / [BLOODHELL](#BLOODHELL)
 
 <a id="Astrosurfer"></a>
-## Astrosurfer (engine demon)
+## ASTROSURFER (engine demo)
 <div class="row">
 	<div class="column">
 		<h5>Project Information</h5>
@@ -16,8 +16,6 @@
 		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
 	</div>
 </div>
-
-<iframe src="https://www.youtube.com/embed/4wh63CocHC8" allowfullscreen></iframe>
 
 <a id="BUGMAN"></a>
 ## BUGMAN ASSAULT [download](https://github.com/GriffinShea/BUGMAN-ASSAULT)
@@ -47,7 +45,7 @@
 </div>
 
 <a id="SVG"></a>
-## SVG Curling [download](https://github.com/GriffinShea/SVG_Curling)
+## SVG CURLING [download](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
 		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a web socket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG (Scalable Vector Graphics) library.</p>
