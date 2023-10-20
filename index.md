@@ -1,16 +1,20 @@
 # DEVELOPMENT PORTFOLIO
-### [ASTROSURFER](#Astrosurfer)/ [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG) / [BLOODHELL](#BLOODHELL)
+### [ASTROSURFER](#Astrosurfer) / [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG) / [BLOODHELL](#BLOODHELL)
 
 <a id="Astrosurfer"></a>
 ## ASTROSURFER (engine demo)
 <div class="row">
 	<div class="column">
 		<h5>Project Information</h5>
+		<p>The video to the right showcases some of the physics capabilities of the engine.</p>
 		<p>Technical accomplishments:</p>
 		<ul>
-			<li>dot dot dot</li>
+			<li>Developed a game engine with Python incorporating rendering, collision detection and response, physics simulation, and object scripting, implementing a property-centric architecture to optimize memory utilization and enable easy parallelization of game data updates using graphics hardware</li>
+			<li>Implemented real-time 3D game physics with Verlet integration, rigid-body dynamics, and constraints to simulate application of forces and torques to bodies, collisions, animated ragdolls, and more</li>
+			<li>Optimized collision detection performance using a k-d tree to partition space and AABB intersection tests to comb through potential collisions, minimizing the number of costlier GJKSM intersection tests</li>
+			<li>Programmed a 3D graphics renderer with OpenGL and GLSL shaders supporting deferred shading with three-term interpolated lighting, shadow mapping, screen-space effects, and supporting custom tessellation, geometry, and texture shaders to facilitate complex and visually interesting graphics</li>
+			<li>Created a tool for generating GLSL programs from a template using an input string to select from a variety of lighting and shading options, easing and unifying the task of writing new graphics shaders</li>
 		</ul>
-		<p>aaa</p>
 	</div>
 	<div class="column">
 		<iframe src="https://www.youtube.com/embed/4wh63CocHC8" allowfullscreen></iframe>
