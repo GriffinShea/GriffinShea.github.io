@@ -2,19 +2,20 @@
 ### [ASTROSURFER](#Astrosurfer) / [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG) / [BLOODHELL](#BLOODHELL)
 
 <a id="Astrosurfer"></a>
-## ASTROSURFER (engine demo)
+## ASTROSURFER (3D Property-Centric Game Engine Demo)
 <div class="row">
 	<div class="column">
-		<h5>Project Information</h5>
-		<p>The video to the right showcases some of the physics capabilities of the engine. To give an idea about the engine's current stage of development, this little game was created with just over 500 lines of user defined code (i.e. excluding core engine features).</p>
-		<p>Technical accomplishments:</p>
+		<p>I am very excited to finally release the first public demo of my 3D property-centric game engine developed as a hobby project from 2021 onwards. The video to the left showcases some of the physics capabilities currently implemented. As you can see, it includes fully fledged rigid-body dynamics, collision response, as well as pin and angle constraints which are put to work to simulate free moving ragdolls. This little game was created with just over 500 lines of user defined code (i.e. excluding core engine features).</p>
+		<p>The engine additionally includes a 3D graphics renderer build in OpenGL and a system for game-object update and collision event scripting. I initially chose to develop in Python to facilitate accessibility and modding for less-experienced programmers and hobbyists hoping to learn more about the low-level code that powers their favourite games. More information about the engine follows in the feature list below:</p>
 		<ul>
-			<li>Developed a game engine with Python incorporating rendering, collision detection and response, physics simulation, and object scripting, implementing a property-centric architecture to optimize memory utilization and enable easy parallelization of game data updates using graphics hardware</li>
-			<li>Implemented real-time 3D game physics with Verlet integration, rigid-body dynamics, and constraints to simulate application of forces and torques to bodies, collisions, animated ragdolls, and more</li>
+			<li>Designed with a property-centric (analogous to data-oriented) architecture to optimize memory utilization and enable easy parallelization of game data updates using graphics hardware</li>
+			<li>3D graphics renderer build on OpenGL and GLSL shaders, supporting deferred shading with three-term interpolated lighting, shadow mapping, screen-space effects, and supporting particle effects, custom tessellation, geometry, and texture shaders to facilitate complex and visually interesting graphics</li>
+			<li>Real-time 3D game physics with Verlet integration, rigid-body dynamics, and constraints to simulate application of forces and torques to bodies, collisions, animated ragdolls, and more</li>
 			<li>Optimized collision detection performance using a k-d tree to partition space and AABB intersection tests to comb through potential collisions, minimizing the number of costlier GJKSM intersection tests</li>
-			<li>Programmed a 3D graphics renderer with OpenGL and GLSL shaders supporting deferred shading with three-term interpolated lighting, shadow mapping, screen-space effects, and supporting custom tessellation, geometry, and texture shaders to facilitate complex and visually interesting graphics</li>
-			<li>Created a tool for generating GLSL programs from a template using an input string to select from a variety of lighting and shading options, easing and unifying the task of writing new graphics shaders</li>
+			<li>A tool for generating GLSL programs from a template using an input string to select from a variety of lighting and shading options, easing and unifying the task of writing new graphics shaders</li>
 		</ul>
+		<p>Please note that this projct is still very much a work in progress. I have lots of plans for additional features and will be releasing more demos and updates as I move forward with development.</p>
+		<p>As a final note, please feel free to get in contact with me on LinkedIn as any feedback, questions, or suggestions are gladly welcomed!</p>
 	</div>
 	<div class="column">
 		<iframe src="https://www.youtube.com/embed/4wh63CocHC8" allowfullscreen></iframe>
