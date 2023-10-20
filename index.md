@@ -8,11 +8,11 @@
 		<h5>Project Information</h5>
 		<p>Technical accomplishments:</p>
 		<ul>
-			<li>...
+			<li>dot dot dot
 		</ul>
 	</div>
 	<div class="column">
-		<iframe width=1280 height=720 src="https://www.youtube.com/embed/4wh63CocHC8"/>
+		<iframe src="https://www.youtube.com/embed/4wh63CocHC8"/>
 	</div>
 </div>
 
@@ -31,7 +31,7 @@
 		<p>Built in Unity as a course project for COMP-4501 (Advanced Computer Game Design and Development) at Carleton University (February - April 2022).</p>
 		<p>Accomplishments:</p>
 		<ul>
-			<li>•	Designed game objects and interactions using class-responsibility-collaboration cards and a game design document to itemize and prioritize development tasks in order to meet deliverable deadlines</li>
+			<li>Designed game objects and interactions using class-responsibility-collaboration cards and a game design document to itemize and prioritize development tasks in order to meet deliverable deadlines</li>
 			<li>Developed a real-time strategy game in Unity utilizing game engine functions to fulfill design guidelines and provide a player experience emphasizing strategic resource management and decision making</li>
 			<li>Programmed high-level game logic in C# using a component-based architecture to organize and reuse code for update steps and interactions common between object types</li>
 			<li>Implemented artificial intelligence and animation using finite-state machines to reduce the complexity of controlling the autonomous behaviors of player-controlled units and enemies</li>
