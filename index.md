@@ -8,12 +8,12 @@
 		<h5>Project Information</h5>
 		<p>Technical accomplishments:</p>
 		<ul>
-			<li>dot dot dot
+			<li>dot dot dot<\li>
 		</ul>
 		<p>aaa</p>
 	</div>
 	<div class="column">
-		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		<iframe src="https://www.youtube.com/embed/4wh63CocHC8" allowfullscreen></iframe>
 	</div>
 </div>
 
