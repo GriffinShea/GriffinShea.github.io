@@ -6,7 +6,7 @@
 <div class="row">
 	<div class="column">
 		<h5>Project Information</h5>
-		<p>The video to the right showcases some of the physics capabilities of the engine.</p>
+		<p>The video to the right showcases some of the physics capabilities of the engine. To give an idea about the engine's current stage of development, this little game was created with just over 500 lines of user defined code (i.e. excluding core engine features).</p>
 		<p>Technical accomplishments:</p>
 		<ul>
 			<li>Developed a game engine with Python incorporating rendering, collision detection and response, physics simulation, and object scripting, implementing a property-centric architecture to optimize memory utilization and enable easy parallelization of game data updates using graphics hardware</li>
