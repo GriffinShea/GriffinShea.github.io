@@ -12,7 +12,7 @@
 		</ul>
 	</div>
 	<div class="column">
-		<iframe src="https://www.youtube.com/embed/4wh63CocHC8"/>
+		<iframe src="https://www.youtube.com/embed/4wh63CocHC8"></iframe>
 	</div>
 </div>
 
