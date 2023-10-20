@@ -8,7 +8,7 @@
 		<h5>Project Information</h5>
 		<p>Technical accomplishments:</p>
 		<ul>
-			<li>dot dot dot<\li>
+			<li>dot dot dot</li>
 		</ul>
 		<p>aaa</p>
 	</div>
