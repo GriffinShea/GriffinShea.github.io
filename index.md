@@ -12,9 +12,11 @@
 		</ul>
 	</div>
 	<div class="column">
-		<iframe src="https://www.youtube.com/embed/4wh63CocHC8"></iframe>
+		
 	</div>
 </div>
+
+<iframe src="https://www.youtube.com/embed/4wh63CocHC8" allowfullscreen></iframe>
 
 <a id="BUGMAN"></a>
 ## BUGMAN ASSAULT [download](https://github.com/GriffinShea/BUGMAN-ASSAULT)
