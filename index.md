@@ -10,9 +10,10 @@
 		<ul>
 			<li>dot dot dot
 		</ul>
+		<p>aaa</p>
 	</div>
 	<div class="column">
-		
+		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
 	</div>
 </div>
 
