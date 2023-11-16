@@ -1,8 +1,8 @@
 # GAME BLOG
-### [ASTROSURFER](#Astrosurfer) / [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG) / [BLOODHELL](#BLOODHELL)
+### [ASTROSURFER DEMO](#Astrosurfer) / [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG) / [BLOODHELL](#BLOODHELL)
 
 <a id="Astrosurfer"></a>
-## ASTROSURFER (Engine Demo)
+## ASTROSURFER DEMO
 <div class="row">
 	<div class="column">
 		<p>I am excited to finally release the first public demo of Astrosurfer, a game created in my 3D property-centric game engine. The video to the left showcases some of the physics capabilities of the engine. It includes fully fledged rigid-body dynamics, collision response, as well as pin and angle constraints which are used to simulate free moving ragdolls. This little game was created with just over 500 lines of user defined code (i.e. excluding core engine features).</p>
@@ -34,7 +34,7 @@
 		
 		<h5>Project Information</h5>
 		<p>Built in Unity as a course project for COMP-4501 (Advanced Computer Game Design and Development) at Carleton University (February - April 2022).</p>
-		<p>Accomplishments:</p>
+		<h5>Technical accomplishments:</h5>
 		<ul>
 			<li>Designed game objects and interactions using class-responsibility-collaboration cards and a game design document to itemize and prioritize development tasks in order to meet deliverable deadlines</li>
 			<li>Developed a real-time strategy game in Unity utilizing game engine functions to fulfill design guidelines and provide a player experience emphasizing strategic resource management and decision making</li>
