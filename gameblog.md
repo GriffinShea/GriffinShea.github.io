@@ -1,7 +1,7 @@
 # GAME BLOG
-### [ASTROSURFER DEMO](#Astrosurfer) / [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG) / [BLOODHELL](#BLOODHELL)
+### [ASTROSURFER DEMO](#ASTROSURFER) / [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG) / [BLOODHELL](#BLOODHELL)
 
-<a id="Astrosurfer"></a>
+<a id="ASTROSURFER"></a>
 ## ASTROSURFER DEMO
 <div class="row">
 	<div class="column">

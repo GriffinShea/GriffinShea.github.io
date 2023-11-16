@@ -1,7 +1,7 @@
 # DEVELOPMENT PORTFOLIO
-### [ASTROSURFER DEMO](#Astrosurfer) / [BUGMAN ASSAULT](#BUGMAN) / [SVG CURLING](#SVG)
+### [ASTROSURFER DEMO](#ASTROSURFER) / [BUGMAN ASSAULT](#BUGMAN) / [QUEST](#QUEST) / [SVG CURLING](#SVG)
 
-<a id="Astrosurfer"></a>
+<a id="ASTROSURFER"></a>
 ## ASTROSURFER DEMO
 <div class="row">
 	<div class="column">
@@ -42,12 +42,31 @@
 	</div>
 </div>
 
+<a id="QUEST"></a>
+## QUEST
+<div class="row">
+	<div class="column">
+		<h5>Project Information</h5>
+		<p>Built by myself and two other students with Java as a course project for COMP-3004 (Object-Oriented Software Engineering) at Carleton University (February - April 2022).</p>
+		<h5>Technical accomplishments:</h5>
+		<ul>
+			<li>Developed a digital version of the card game Quest in Java using object-oriented design principles and thoughtful application of design patterns to enhance code security, modularity, and maintainability</li>
+			<li>Headed a team of multiple programmers using weekly meetings to solve problems collaboratively, coordinate programming tasks, review code, and deliver code on time in accordance with deadlines</li>
+			<li>Maintained the integrity of a shared code repository using Git version control system to document, push, pull, merge, review, and rollback source code updates</li>
+			<li>Designed and implemented WebSocket-based server-client communication logic to maintain real-time communication with up to four clients/players and host a synchronized, shared, and protected game state on the server
+		</ul>
+	</div>
+	<div class="column">
+		<img src="images/quest.png?raw=true"/>
+	</div>
+</div>
+
 <a id="SVG"></a>
 ## SVG CURLING [download](https://github.com/GriffinShea/SVG_Curling)
 <div class="row">
 	<div class="column">
 		<h5>Project Information</h5>
-		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a web socket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG (Scalable Vector Graphics) library.</p>
+		<p>SVG curling is a two-player digital version of everyone's favourite rock throwing ice sport. Two web browsers connect to a central server that coordinates the shared game state in real-time through a WebSocket connection. Backend communication logic is carefully defined to avoid deadlocks and disallow abuse from a browser. Developed in Javascript with the .NET framework, graphics are generated using the SVG (Scalable Vector Graphics) library.</p>
 		<p>Created as an assignment for COMP-2406 (Fundamentals of Web Applications) at Carleton University (November 2018).</p>
 		<p>The repository contains all the files needed to run the game and a readme file which should instruct you how to run it.</p>
 	</div>
