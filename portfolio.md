@@ -53,7 +53,7 @@
 			<li>Developed a digital version of the card game Quest in Java using object-oriented design principles and thoughtful application of design patterns to enhance code security, modularity, and maintainability</li>
 			<li>Headed a team of multiple programmers using weekly meetings to solve problems collaboratively, coordinate programming tasks, review code, and deliver code on time in accordance with deadlines</li>
 			<li>Maintained the integrity of a shared code repository using Git version control system to document, push, pull, merge, review, and rollback source code updates</li>
-			<li>Designed and implemented WebSocket-based server-client communication logic to maintain real-time communication with up to four clients/players and host a synchronized, shared, and protected game state on the server</li>
+			<li>Designed and implemented WebSocket-based server-client communication logic to maintain real-time communication with up to four clients/players and host a synchronized, shared, and protected game state</li>
 		</ul>
 	</div>
 	<div class="column">
