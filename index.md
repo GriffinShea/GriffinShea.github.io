@@ -1,7 +1,3 @@
-# MAIN MENU
-
-<br>
-
 # Development Portfolio (hiring managers look here!)
 ### [ASTROSURFER DEMO](portfolio.html#Astrosurfer) / [BUGMAN ASSAULT](portfolio.html#BUGMAN) / [SVG CURLING](portfolio.html#SVG)
 
