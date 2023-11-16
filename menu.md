@@ -5,11 +5,11 @@
 <h2>Development Portfolio (hiring managers look here!)</h2>
 <div class="row">
 	<h3>
-	[Projects](griffinshea.github.io/portfolio.html):
+		<a href="griffinshea.github.io/portfolio.html">Projects</a>:
 		<ul>
-			<li>[Astrosurfer (Engine Demo)](griffinshea.github.io/portfolio.html#Astrosurfer)</li>
-			<li>[Bugman Assault](griffinshea.github.io/portfolio.html#BUGMAN)</li>
-			<li>[SVG Curling](griffinshea.github.io/portfolio.html#SVG)</li>
+			<li><a href="griffinshea.github.io/portfolio.html#Astrosurfer">Astrosurfer (Engine Demo)</a></li>
+			<li><a href="griffinshea.github.io/portfolio.html#BUGMAN">Bugman Assault</a></li>
+			<li><a href="griffinshea.github.io/portfolio.html#SVG">SVG Curling</a></li>
 		</ul>
 	</h3>
 </div>
