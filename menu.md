@@ -4,22 +4,17 @@
 
 <h2>Development Portfolio (hiring managers look here!)</h2>
 <div class="row"><div class="column">
-	<p>
-		<a href="griffinshea.github.io/portfolio.html">Projects:</a>
-		<ul>
-			<li><a href="griffinshea.github.io/portfolio.html#Astrosurfer">Astrosurfer (Engine Demo)</a></li>
-			<li><a href="griffinshea.github.io/portfolio.html#BUGMAN">Bugman Assault</a></li>
-			<li><a href="griffinshea.github.io/portfolio.html#SVG">SVG Curling</a></li>
-		</ul>
-	</p>
+	<ul>
+		<li><a href="griffinshea.github.io/portfolio.html#Astrosurfer">Astrosurfer (Engine Demo)</a></li>
+		<li><a href="griffinshea.github.io/portfolio.html#BUGMAN">Bugman Assault</a></li>
+		<li><a href="griffinshea.github.io/portfolio.html#SVG">SVG Curling</a></li>
+	</ul>
 </div></div>
 
 <br>
 
 # [Development Portfolio (hiring managers look here!)](griffinshea.github.io/portfolio.html)
-### - [Astrosurfer (Engine Demo)](griffinshea.github.io/portfolio.html#Astrosurfer)
-### - [Bugman Assault](griffinshea.github.io/portfolio.html#BUGMAN)
-### - [SVG Curling](griffinshea.github.io/portfolio.html#SVG)
+### - [Astrosurfer (Engine Demo)](griffinshea.github.io/portfolio.html#Astrosurfer) / [Bugman Assault](griffinshea.github.io/portfolio.html#BUGMAN) / [SVG Curling](griffinshea.github.io/portfolio.html#SVG)
 
 <br>
 
