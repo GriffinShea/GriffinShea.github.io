@@ -18,6 +18,7 @@
 	</div>
 	<div class="column">
 		<iframe src="https://www.youtube.com/embed/4wh63CocHC8" allowfullscreen></iframe>
+		<img src="images/graphics.png?raw=true"/>
 	</div>
 </div>
 
