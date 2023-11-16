@@ -12,7 +12,7 @@
 			<li>Designed with a property-centric (analogous to data-oriented) architecture to optimize memory utilization and enable easy parallelization of game data updates using graphics hardware</li>
 			<li>3D graphics renderer built with OpenGL supporting deferred shading with three-term interpolated lighting, shadow mapping, screen-space effects, and supporting particle effects, custom tessellation, geometry, and texture shaders</li>
 			<li>Custom 3D physics-based animation system using Verlet integration, rigid-body dynamics, and physics constraints to simulate forces and torques, collisions between objects, doors, furniture, animated ragdolls, and more</li>
-			<li>Three-stage collision detection algorithm using a k-d tree, axis-aligned bounding boxes, and <a href="https://caseymuratori.com/blog_0003">GJKSM</a> intersection tests to detect collisions and return contact information</li>
+			<li>Three-stage collision detection algorithm using a k-d tree, axis-aligned bounding boxes, <a href="https://caseymuratori.com/blog_0003">GJKSM</a> intersection tests to confirm collisions, and expanding polytope algorithm to find and return contact information</li>
 			<li>A tool for generating GLSL programs from a template using an input string to select from a variety of lighting and shading options, easing and unifying the task of writing new graphics shaders</li>
 		</ul>
 	</div>
