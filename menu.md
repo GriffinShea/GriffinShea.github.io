@@ -3,7 +3,7 @@
 <br>
 
 <h2>Development Portfolio (hiring managers look here!)</h2>
-<div class="row">
+<div class="row"><div class="column">
 	<p>
 		<a href="griffinshea.github.io/portfolio.html">Projects</a>:
 		<ul>
@@ -12,7 +12,7 @@
 			<li><a href="griffinshea.github.io/portfolio.html#SVG">SVG Curling</a></li>
 		</ul>
 	</p>
-</div>
+</div></div>
 
 <br>
 
