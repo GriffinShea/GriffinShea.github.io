@@ -7,7 +7,7 @@
 	<div class="column">
 		<h5>Project Information</h5>
 		<p>This short video demonstrates some of the graphics and physics capabilities of my custom game engine. It supports rigid-body dynamics, collision response, as well as pin and angle constraints which are used to simulate a free moving ragdoll. The engine additionally includes a 3D graphics renderer build in OpenGL and a system for game-object and collision event scripting. All work is my own but I use three game development libraries: PyGame (to create the window and collect input), PyOpenGL (for rendering), and PyGLM (for vector/matrix math).</p>
-		<h5>Technical accomplishments:</h5>
+		<h5>Features:</h5>
 		<ul>
 			<li>Designed with a property-centric (analogous to data-oriented) architecture to optimize memory utilization and enable easy parallelization of game data updates using graphics hardware</li>
 			<li>3D graphics renderer built with OpenGL supporting deferred shading with three-term interpolated lighting, shadow mapping, screen-space effects, and supporting particle effects, custom tessellation, geometry, and texture shaders</li>
