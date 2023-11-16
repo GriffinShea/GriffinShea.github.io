@@ -6,14 +6,13 @@
 <div class="row">
 	<div class="column">
 		<h5>Project Information</h5>
-		<p>I am excited to finally release the first public demo of Astrosurfer, a game created in my 3D property-centric game engine. The video to the left showcases some of the physics capabilities of the engine. It includes fully fledged rigid-body dynamics, collision response, as well as pin and angle constraints which are used to simulate free moving ragdolls. This little game was created with just over 500 lines of user defined code (i.e. excluding core engine features).</p>
-		<p>The engine additionally includes a 3D graphics renderer build in OpenGL and a system for game-object and collision event scripting. I initially chose to develop in Python to facilitate accessibility and modding for less-experienced programmers and hobbiests curious about game engines.</p>
+		<p>This short video demonstrates some of the graphics and physics capabilities of my custom game engine. It includes fully fledged rigid-body dynamics, collision response, as well as pin and angle constraints which are used to simulate a free moving ragdoll. The engine additionally includes a 3D graphics renderer build in OpenGL and a system for game-object and collision event scripting. All work is my own but I use three game development libraries: PyGame (to create the window and collect input), PyOpenGL (for rendering), and PyGLM (for vector/matrix math).</p>
 		<h5>Technical accomplishments:</h5>
 		<ul>
 			<li>Designed with a property-centric (analogous to data-oriented) architecture to optimize memory utilization and enable easy parallelization of game data updates using graphics hardware</li>
-			<li>3D graphics renderer build with OpenGL and GLSL shaders, supporting deferred shading with three-term interpolated lighting, shadow mapping, screen-space effects, and supporting particle effects, custom tessellation, geometry, and texture shaders to facilitate complex and visually interesting graphics</li>
-			<li>Real-time 3D physics system with Verlet integration, rigid-body dynamics, and constraints to simulate application of forces and torques to bodies, collisions, animated ragdolls, and more</li>
-			<li>Optimized collision detection performance using a k-d tree to partition space and AABB intersection tests to comb through potential collisions, minimizing the number of costlier GJKSM intersection tests</li>
+			<li>3D graphics renderer built with OpenGL supporting deferred shading with three-term interpolated lighting, shadow mapping, screen-space effects, and supporting particle effects, custom tessellation, geometry, and texture shaders</li>
+			<li>Custom 3D physics-based animation system using Verlet integration, rigid-body dynamics, and physics constraints to simulate forces and torques, collisions between objects, doors, furniture, animated ragdolls, and more</li>
+			<li>Three-stage collision detection algorithm using a k-d tree, axis-aligned bounding boxes, and <a href="https://caseymuratori.com/blog_0003">GJKSM</a> intersection tests to detect collisions and return contact information</li>
 			<li>A tool for generating GLSL programs from a template using an input string to select from a variety of lighting and shading options, easing and unifying the task of writing new graphics shaders</li>
 		</ul>
 	</div>
