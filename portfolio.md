@@ -50,7 +50,7 @@
 		<p>Built by a team of three students (including myself) in Java as a course project for COMP-3004 (Object-Oriented Software Engineering) at Carleton University (February - April 2022).</p>
 		<h5>Technical accomplishments:</h5>
 		<ul>
-			<li>Developed a digital version of <a href="https://boardgamegeek.com/boardgame/360/quests-round-table">Quests of the Round Table</a> using object-oriented design principles and thoughtful application of design patterns to enhance code security, modularity, and maintainability</li>
+			<li>Developed a digital version of <a href="https://boardgamegeek.com/boardgame/360/quests-round-table">Quests of the Round Table by Scott Kimball</a> using object-oriented design principles and thoughtful application of design patterns to enhance code security, modularity, and maintainability</li>
 			<li>Headed a team of multiple programmers using weekly meetings to solve problems collaboratively, coordinate programming tasks, review code, and deliver code on time in accordance with deadlines</li>
 			<li>Maintained the integrity of a shared code repository using Git version control system to document, push, pull, merge, review, and rollback source code updates</li>
 			<li>Designed and implemented WebSocket-based server-client communication logic to maintain real-time communication with up to four clients/players and host a synchronized, shared, and protected game state</li>
