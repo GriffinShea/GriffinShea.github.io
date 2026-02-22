@@ -19,6 +19,7 @@
 	<div class="column">
 		<iframe width="480px" src="https://www.youtube.com/embed/4wh63CocHC8?autoplay=1&fs=1" allowfullscreen></iframe>
 		<img src="images/graphics.png?raw=true"/>
+		<img src="images/cards.png?raw=true"/>
 	</div>
 </div>
 
