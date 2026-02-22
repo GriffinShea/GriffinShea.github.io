@@ -13,8 +13,8 @@
 
 <table>
 <tr>
-<th> Game Projects </th>
-<th> Research Projects </th>
+<th><h1>Game Projects</h1></th>
+<th><h1>Research Projects</h1></th>
 </tr>
 <tr>
 <td>
