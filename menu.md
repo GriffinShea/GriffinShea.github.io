@@ -12,13 +12,13 @@
 
 <div style="display: flex;">
   <div style="flex: 50%; padding: 10px;">
-    <!-- Content for the first column goes here -->
+    # Research Projects
     ### Column 1 Header
     * Item A
     * Item B
   </div>
   <div style="flex: 50%; padding: 10px;">
-    <!-- Content for the second column goes here -->
+    # Game Projects
     ### Column 2 Header
     1. First item
     2. Second item
