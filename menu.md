@@ -25,9 +25,4 @@
   </div>
 </div>
 
-| Column 1 Header | Column 2 Header |
-| :--- | :--- |
-| Content cell 1 | Content cell 2 |
-| More content | More content |
-
 
