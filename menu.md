@@ -31,7 +31,7 @@
 </tr>
 <tr>
 <td>
-
+<img src="images/cards.png?raw=true"/>
 ```c++
 int foo() {
     int result = 4;
@@ -41,7 +41,7 @@ int foo() {
 
 </td>
 <td>
-
+<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
 ```c++
 int foo() { 
     int x = 4;
