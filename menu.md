@@ -13,7 +13,9 @@
 
 <h1>DEVELOPMENT PORTFOLIO</h1>
 <h3>
-	Here, you will find a collection of my projects.<br>
+	Here, you will find a collection of my projects.<br><br>
+</h3>
+<h3 style="justify: center;">
 	<a href="#Game">Game Projects</a> / <a href="#Research">Research Projects</a>
 </h3>
 
@@ -29,64 +31,78 @@
 ### [ASTROSURFER DEMO](gameblog.html#Astrosurfer) / [BUGMAN ASSAULT](gameblog.html#BUGMAN) / [SVG CURLING](gameblog.html#SVG) / [BLOODHELL](gameblog.html#BLOODHELL)
 
 <div class="project_section">
-	<div class="project_col">
-		<a id="Game"></a>
-		<h1>Game Projects</h1>
-		<div class="project_row">
+	
+	<a id="Game"></a>
+	<h1>Game Projects</h1>
+	<div class="project_row">
+		<div class="project_col">
 			<h2>MasterScript
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
-		<div class="project_row">
+		<div class="project_col">
 			<h2>Astrosurfer
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
-		<div class="project_row">
+		<div class="project_col">
 			<h2>Bugman Assault
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
-		<div class="project_row">
+	</div>
+	<div class="project_row">
+		<div class="project_col">
 			<h2>SVG Curling
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
-		<div class="project_row">
+		<div class="project_col">
 			<h2>Bloodhell
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
 	</div>
-	<div class="project_col">
-		<a id="Research"></a>
-		<h1>Research Projects</h1>
-		<div class="project_row">
-			<h2>Quantum
+	
+	<a id="Research"></a>
+	<h1>Research Projects</h1>
+	<div class="project_row">
+		<div class="project_col">
+			<h2>MasterScript
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
-		<div class="project_row">
-			<h2>Multi-Agent Systems
+		<div class="project_col">
+			<h2>Astrosurfer
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
-		<div class="project_row">
-			<h2>Ants
+		<div class="project_col">
+			<h2>Bugman Assault
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
-		<div class="project_row">
-			<h2>Computer Vision</h2>
+	</div>
+	<div class="project_row">
+		<div class="project_col">
+			<h2>SVG Curling
+			<br>
 			<img src="images/cards.png?raw=true"/>
+			</h2>
+		</div>
+		<div class="project_col">
+			<h2>Bloodhell
+			<br>
+			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
 	</div>
 </div>
