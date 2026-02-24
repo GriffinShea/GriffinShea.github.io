@@ -13,9 +13,9 @@
 
 <h1>DEVELOPMENT PORTFOLIO</h1>
 <h3>
-	Here, you will find a collection of my projects.<br><br>
+	Here, you will find a collection of my projects.
 </h3>
-<h3 style="justify: center;">
+<h3 style="text-align: center;">
 	<a href="#Game">Game Projects</a> / <a href="#Research">Research Projects</a>
 </h3>
 
