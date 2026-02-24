@@ -17,36 +17,44 @@
 	<h1>Game Projects</h1>
 	<div class="project_row">
 		<div class="project_col">
-			<h2>MasterScript
+			<h2>MasterScript</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
 		</div>
 		<div class="project_col">
-			<h2>Astrosurfer
+			<h2>Astrosurfer</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
 		</div>
 		<div class="project_col">
-			<h2>Bugman Assault
+			<h2>Bugman Assault</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
 		</div>
 	</div>
 	<div class="project_row">
 		<div class="project_col">
-			<h2>SVG Curling
+			<h2>SVG Curling</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
 		</div>
 		<div class="project_col">
-			<h2>Bloodhell
+			<h2>Bloodhell</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
+		</div>
+		<div class="project_col">
+			<br>
 		</div>
 	</div>
 	
@@ -54,30 +62,44 @@
 	<h1>Research Projects</h1>
 	<div class="project_row">
 		<div class="project_col">
-			<h2>Quantum
+			<h2>Quantum</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
 		</div>
 		<div class="project_col">
-			<h2>Multi-Agent Systems
+			<h2>Multi-Agent Systems</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
 		</div>
 		<div class="project_col">
-			<h2>Ants
+			<h2>Ants</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
 		</div>
 	</div>
 	<div class="project_row">
 		<div class="project_col">
-			<h2>Computer Vision
+			<h2>Computer Vision</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
-			</h2>
+			</h4>
+		</div>
+	</div>
+	<div class="project_row">
+		<div class="project_col">
+			<br>
+		</div>
+	</div>
+	<div class="project_row">
+		<div class="project_col">
+			<br>
 		</div>
 	</div>
 </div>
