@@ -20,7 +20,7 @@
 			<h2>MasterScript</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
-			<img src="images/cards.png?raw=true"/>
+			<img src="images/graphics.png?raw=true"/>
 			</h4>
 		</div>
 		<div class="project_col">
@@ -34,23 +34,30 @@
 			<h2>Bugman Assault</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
-			<img src="images/cards.png?raw=true"/>
+			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
 			</h4>
 		</div>
 	</div>
 	<div class="project_row">
 		<div class="project_col">
+			<h2>Quest</h2>
+			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
+			<br>
+			<img src="images/quest.png?raw=true"/>
+			</h4>
+		</div>
+		<div class="project_col">
 			<h2>SVG Curling</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
-			<img src="images/cards.png?raw=true"/>
+			<img src="images/curling.png?raw=true"/>
 			</h4>
 		</div>
 		<div class="project_col">
 			<h2>Bloodhell</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
-			<img src="images/cards.png?raw=true"/>
+			<img src="images/BLOODHELL.png?raw=true"/>
 			</h4>
 		</div>
 		<div class="project_col">
