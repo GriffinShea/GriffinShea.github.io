@@ -3,7 +3,7 @@
 	Here, you will find a collection of my projects.<br>
 	&emsp;☞ <a href="#Game">Game Projects</a><br>
 	&emsp;☞ <a href="#Research">Research Projects</a><br>
-	&emsp;☞ <a href="#Research">Essays</a>
+	&emsp;☞ <a href="#Essays">Essays</a>
 </h3>
 
 <br>
@@ -98,4 +98,19 @@
 			<br>
 		</div>
 	</div>
+	
+	<a id="Essays"></a>
+	<h1>Essays</h1>
+	<h3>
+		History:<br>
+		&emsp;☞ <a href="#Game">Game Projects</a><br>
+		&emsp;☞ <a href="#Research">Research Projects</a><br>
+		&emsp;☞ <a href="#Essays">Essays</a><br>
+		<br>
+		Philosophy:<br>
+		&emsp;☞ <a href="#Game">Game Projects</a><br>
+		&emsp;☞ <a href="#Research">Research Projects</a><br>
+		&emsp;☞ <a href="#Essays">Essays</a>
+	</h3>
+	
 </div>
