@@ -13,14 +13,14 @@ body {
 }
 .project_row {
 	display: flex;
-	height: 30%;
+	height: auto;
 }
 .project_col {
-	width: 30%;
+	width: 33vw;
 	border: black;
     border-style: ridge;
-    border-width: 2%;
-	margin: 10 10 10 10px;
+    border-width: 4px;
+	margin: 10px;
 }
 
 
