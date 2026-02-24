@@ -2,7 +2,8 @@
 <h3>
 	Here, you will find a collection of my projects.<br>
 	&emsp;☞ <a href="#Game">Game Projects</a><br>
-	&ensp;☞ <a href="#Research">Research Projects</a>
+	&emsp;☞ <a href="#Research">Research Projects</a>
+	&emsp;☞ <a href="#Research">Essays</a>
 </h3>
 
 <br>
