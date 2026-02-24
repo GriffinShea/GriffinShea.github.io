@@ -1,5 +1,6 @@
 # DEVELOPMENT PORTFOLIO
 ### Here, you will find a collection of my projects.
+### [Game Projects](#Game) / [Research Projects](#Research)
 <br>
 
 # Development Portfolio (hiring managers look here!)
@@ -11,6 +12,7 @@
 
 <div class="project_section">
 	<div class="project_col">
+		<a id="Game"></a>
 		<h1>Game Projects</h1>
 		<div class="project_row">
 			<h2>MasterScript
@@ -44,6 +46,7 @@
 		</div>
 	</div>
 	<div class="project_col">
+		<a id="Research"></a>
 		<h1>Research Projects</h1>
 		<div class="project_row">
 			<h2>Quantum
