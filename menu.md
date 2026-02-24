@@ -1,8 +1,8 @@
 <h1>DEVELOPMENT PORTFOLIO</h1>
 <h3>
 	Here, you will find a collection of my projects.<br>
-	&emsp☞ <a href="#Game">Game Projects</a><br>
-	&ensp☞ <a href="#Research">Research Projects</a>
+	&emsp;☞ <a href="#Game">Game Projects</a><br>
+	&ensp;☞ <a href="#Research">Research Projects</a>
 </h3>
 
 <br>
