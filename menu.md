@@ -73,19 +73,19 @@
 	<h1>Research Projects</h1>
 	<div class="project_row">
 		<div class="project_col">
-			<h2>MasterScript
+			<h2>Quantum
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
 		<div class="project_col">
-			<h2>Astrosurfer
+			<h2>Multi-Agent Systems
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
 		</div>
 		<div class="project_col">
-			<h2>Bugman Assault
+			<h2>Ants
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
@@ -93,7 +93,7 @@
 	</div>
 	<div class="project_row">
 		<div class="project_col">
-			<h2>SVG Curling
+			<h2>Computer Vision
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h2>
