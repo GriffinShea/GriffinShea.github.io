@@ -4,7 +4,8 @@
 </h3>
 
 <h3 style="text-align: center; display: inline-block;">
-	<a href="#Game">Game Projects</a> / <a href="#Research">Research Projects</a>
+	☞<a href="#Game">Game Projects</a><br>
+	☞<a href="#Research">Research Projects</a>
 </h3>
 
 <div class="project_section">
