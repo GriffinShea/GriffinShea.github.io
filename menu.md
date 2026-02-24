@@ -9,37 +9,38 @@
 # Game Blog
 ### [ASTROSURFER DEMO](gameblog.html#Astrosurfer) / [BUGMAN ASSAULT](gameblog.html#BUGMAN) / [SVG CURLING](gameblog.html#SVG) / [BLOODHELL](gameblog.html#BLOODHELL)
 
-
-<div class="project_col">
-	<h1>Game Projects</h1>
-	<div class="project_row">
-		<h2>Quantum</h2>
-		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+<div class="project_section">
+	<div class="project_col">
+		<h1>Game Projects</h1>
+		<div class="project_row">
+			<h2>Quantum</h2>
+			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		</div>
+		<div class="project_row">
+			<h2>Quantum</h2>
+			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		</div>
+		<div class="project_row">
+			<h2>Quantum</h2>
+			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		</div>
 	</div>
-	<div class="project_row">
-		<h2>Quantum</h2>
-		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	</div>
-	<div class="project_row">
-		<h2>Quantum</h2>
-		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+	<div class="project_col">
+		<h1>Research Projects</h1>
+		<div class="project_row">
+			<h2>Quantum</h2>
+			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		</div>
+		<div class="project_row">
+			<h2>Quantum</h2>
+		</div>
+			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		<div class="project_row">
+			<h2>Quantum</h2>
+			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		</div>
 	</div>
 </div>
-<div class="project_col">
-	<h1>Research Projects</h1>
-	<div class="project_row">
-		<h2>Quantum</h2>
-		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	</div>
-	<div class="project_row">
-		<h2>Quantum</h2>
-	</div>
-		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	<div class="project_row">
-		<h2>Quantum</h2>
-		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	</div>
-</col>
 
 <table>
 <tr>

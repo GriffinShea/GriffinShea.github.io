@@ -8,11 +8,17 @@ body {
   font-size: 100%;
 }
 
+
+.projects_section {
+	width: 100vw;
+	display: grid;
+}
 .project_col {
 	width: 50vw;
 	
 }
 .project_row {
+	height: 50vh;
 }
 
 
