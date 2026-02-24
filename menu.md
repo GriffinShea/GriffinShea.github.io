@@ -16,23 +16,20 @@
 		<div class="project_col">
 			<h2>MasterScript</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
-			<br>
+			<br></h4>
 			<img src="images/graphics.png?raw=true"/>
-			</h4>
 		</div>
 		<div class="project_col">
 			<h2>Astrosurfer</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
-			<br>
+			<br></h4>
 			<img src="images/cards.png?raw=true"/>
-			</h4>
 		</div>
 		<div class="project_col">
 			<h2>Bugman Assault</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
-			<br>
+			<br></h4>
 			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-			</h4>
 		</div>
 	</div>
 	<div class="project_row">
