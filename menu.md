@@ -13,12 +13,12 @@
 	<a id="Game"></a>
 	<h1>Game Projects</h1>
 	<div class="project_row">
-		<div class="project_col">
+		<a href="masterscript.html" class="project_col">
 			<h2>MasterScript</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br></h4>
 			<img src="images/graphics.png?raw=true"/>
-		</div>
+		</a>
 		<div class="project_col">
 			<h2>Astrosurfer</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
