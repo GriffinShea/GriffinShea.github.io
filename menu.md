@@ -1,8 +1,14 @@
 # DEVELOPMENT PORTFOLIO
+
 ### Here, you will find a collection of my projects.
 
 ### [Game Projects](#Game) / [Research Projects](#Research)
 
+<br>
+
+# DEVELOPMENT PORTFOLIO
+### Here, you will find a collection of my projects.
+### [Game Projects](#Game) / [Research Projects](#Research)
 <br>
 
 <h1>DEVELOPMENT PORTFOLIO</h1>
