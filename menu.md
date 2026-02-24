@@ -2,6 +2,9 @@
 <h3>
 	Here, you will find a collection of my projects.
 </h3>
+
+<br>
+
 <h3 style="text-align: center;">
 	<a href="#Game">Game Projects</a> / <a href="#Research">Research Projects</a>
 </h3>

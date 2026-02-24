@@ -13,10 +13,13 @@ body {
 }
 .project_row {
 	display: flex;
-	height: 33%;
+	height: 30%;
 }
 .project_col {
 	width: 33%;
+	border: black;
+    border-style: ridge;
+    border-width: 1%;
 }
 
 
