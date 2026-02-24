@@ -60,9 +60,6 @@
 			<img src="images/BLOODHELL.png?raw=true"/>
 			</h4>
 		</div>
-		<div class="project_col">
-			<br>
-		</div>
 	</div>
 	
 	<br>
