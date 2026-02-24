@@ -13,8 +13,10 @@
 	<div class="project_col">
 		<h1>Game Projects</h1>
 		<div class="project_row">
-			<h2>MasterScript</h2>
+			<h2>MasterScript
+			<br>
 			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
 		<div class="project_row">
 			<h2>Astrosurfer</h2>
