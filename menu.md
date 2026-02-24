@@ -10,35 +10,35 @@
 ### [ASTROSURFER DEMO](gameblog.html#Astrosurfer) / [BUGMAN ASSAULT](gameblog.html#BUGMAN) / [SVG CURLING](gameblog.html#SVG) / [BLOODHELL](gameblog.html#BLOODHELL)
 
 
-<col class="project_col">
+<div class="project_col">
 	<h1>Game Projects</h1>
-	<row class="project_row">
+	<div class="project_row">
 		<h2>Quantum</h2>
 		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	</row>
-	<row class="project_row">
+	</div>
+	<div class="project_row">
 		<h2>Quantum</h2>
 		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	</row>
-	<row class="project_row">
+	</div>
+	<div class="project_row">
 		<h2>Quantum</h2>
 		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	</row>
-</col>
-<col class="project_col">
+	</div>
+</div>
+<div class="project_col">
 	<h1>Research Projects</h1>
-	<row class="project_row">
+	<div class="project_row">
 		<h2>Quantum</h2>
 		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	</row>
-	<row class="project_row">
+	</div>
+	<div class="project_row">
 		<h2>Quantum</h2>
-	</row>
+	</div>
 		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	<row class="project_row">
+	<div class="project_row">
 		<h2>Quantum</h2>
 		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-	</row>
+	</div>
 </col>
 
 <table>
