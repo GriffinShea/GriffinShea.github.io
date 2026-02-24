@@ -58,6 +58,8 @@
 		</div>
 	</div>
 	
+	<br>
+	
 	<a id="Research"></a>
 	<h1>Research Projects</h1>
 	<div class="project_row">
@@ -91,45 +93,11 @@
 			<img src="images/cards.png?raw=true"/>
 			</h4>
 		</div>
-	</div>
-	<div class="project_row">
 		<div class="project_col">
 			<br>
 		</div>
-	</div>
-	<div class="project_row">
 		<div class="project_col">
 			<br>
 		</div>
 	</div>
 </div>
-
-<table>
-<tr>
-<th><h1>Game Projects</h1></th>
-<th><h1>Research Projects</h1></th>
-</tr>
-<tr>
-<td>
-<img src="images/cards.png?raw=true"/>
-```c++
-int foo() {
-    int result = 4;
-    return result;
-}
-```
-
-</td>
-<td>
-<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-```c++
-int foo() { 
-    int x = 4;
-    return x;
-}
-```
-
-</td>
-</tr>
-</table>
-
