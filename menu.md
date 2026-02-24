@@ -1,7 +1,19 @@
 # DEVELOPMENT PORTFOLIO
 ### Here, you will find a collection of my projects.
+
 ### [Game Projects](#Game) / [Research Projects](#Research)
+
 <br>
+
+<h1>DEVELOPMENT PORTFOLIO</h1>
+<h3>
+	Here, you will find a collection of my projects.<br>
+	<a href="#Game">Game Projects</a> / <a href="#Research">Research Projects</a>
+</h3>
+
+<br>
+
+
 
 # Development Portfolio (hiring managers look here!)
 ### [ASTROSURFER DEMO](portfolio.html#Astrosurfer) / [BUGMAN ASSAULT](portfolio.html#BUGMAN) / [SVG CURLING](portfolio.html#SVG)
