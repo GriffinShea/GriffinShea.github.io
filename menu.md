@@ -13,15 +13,23 @@
 	<div class="project_col">
 		<h1>Game Projects</h1>
 		<div class="project_row">
-			<h2>Quantum</h2>
+			<h2>MasterScript</h2>
 			<img src="images/cards.png?raw=true"/>
 		</div>
 		<div class="project_row">
-			<h2>Quantum</h2>
+			<h2>Astrosurfer</h2>
 			<img src="images/cards.png?raw=true"/>
 		</div>
 		<div class="project_row">
-			<h2>Quantum</h2>
+			<h2>Bugman Assault</h2>
+			<img src="images/cards.png?raw=true"/>
+		</div>
+		<div class="project_row">
+			<h2>SVG Curling</h2>
+			<img src="images/cards.png?raw=true"/>
+		</div>
+		<div class="project_row">
+			<h2>Bloodhell</h2>
 			<img src="images/cards.png?raw=true"/>
 		</div>
 	</div>
@@ -32,11 +40,15 @@
 			<img src="images/cards.png?raw=true"/>
 		</div>
 		<div class="project_row">
-			<h2>Quantum</h2>
+			<h2>Multi-Agent Systems</h2>
 		</div>
 			<img src="images/cards.png?raw=true"/>
 		<div class="project_row">
-			<h2>Quantum</h2>
+			<h2>Ants</h2>
+			<img src="images/cards.png?raw=true"/>
+		</div>
+		<div class="project_row">
+			<h2>Computer Vision</h2>
 			<img src="images/cards.png?raw=true"/>
 		</div>
 	</div>
