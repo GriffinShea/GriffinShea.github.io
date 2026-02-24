@@ -19,35 +19,49 @@
 			</h2>
 		</div>
 		<div class="project_row">
-			<h2>Astrosurfer</h2>
+			<h2>Astrosurfer
+			<br>
 			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
 		<div class="project_row">
-			<h2>Bugman Assault</h2>
+			<h2>Bugman Assault
+			<br>
 			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
 		<div class="project_row">
-			<h2>SVG Curling</h2>
+			<h2>SVG Curling
+			<br>
 			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
 		<div class="project_row">
-			<h2>Bloodhell</h2>
+			<h2>Bloodhell
+			<br>
 			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
 	</div>
 	<div class="project_col">
 		<h1>Research Projects</h1>
 		<div class="project_row">
-			<h2>Quantum</h2>
+			<h2>Quantum
+			<br>
 			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
 		<div class="project_row">
-			<h2>Multi-Agent Systems</h2>
+			<h2>Multi-Agent Systems
+			<br>
+			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
-			<img src="images/cards.png?raw=true"/>
 		<div class="project_row">
-			<h2>Ants</h2>
+			<h2>Ants
+			<br>
 			<img src="images/cards.png?raw=true"/>
+			</h2>
 		</div>
 		<div class="project_row">
 			<h2>Computer Vision</h2>

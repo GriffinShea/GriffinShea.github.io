@@ -10,15 +10,14 @@ body {
 
 
 .project_section {
-    justify-items: center;
-	display: grid;
+	display: flex;
 }
 .project_col {
-	width: 40%;
+	width: 50vw;
 	
 }
 .project_row {
-	height: 30%;
+	height: 30vw;
 }
 
 
