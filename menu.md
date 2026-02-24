@@ -19,41 +19,41 @@
 			<br></h4>
 			<img src="images/graphics.png?raw=true"/>
 		</a>
-		<div class="project_col">
+		<a href="astrosurfer.html" class="project_col">
 			<h2>Astrosurfer</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br></h4>
 			<img src="images/cards.png?raw=true"/>
-		</div>
-		<div class="project_col">
+		</a>
+		<a href="bugmanassault.html" class="project_col">
 			<h2>Bugman Assault</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br></h4>
 			<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
-		</div>
+		</a>
 	</div>
 	<div class="project_row">
-		<div class="project_col">
+		<a href="quest.html" class="project_col">
 			<h2>Quest</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/quest.png?raw=true"/>
 			</h4>
-		</div>
-		<div class="project_col">
+		</a>
+		<a href="curling.html" class="project_col">
 			<h2>SVG Curling</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/curling.png?raw=true"/>
 			</h4>
-		</div>
-		<div class="project_col">
+		</a>
+		<a href="bloodhell.html" class="project_col">
 			<h2>Bloodhell</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/BLOODHELL.png?raw=true"/>
 			</h4>
-		</div>
+		</a>
 	</div>
 	
 	<br>
@@ -61,36 +61,36 @@
 	<a id="Research"></a>
 	<h1>Research Projects</h1>
 	<div class="project_row">
-		<div class="project_col">
+		<a href="quantum.html" class="project_col">
 			<h2>Quantum</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h4>
-		</div>
-		<div class="project_col">
+		</a>
+		<a href="multi-agent_systems.html" class="project_col">
 			<h2>Multi-Agent Systems</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h4>
-		</div>
-		<div class="project_col">
+		</a>
+		<a href="ants.html" class="project_col">
 			<h2>Ants</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h4>
-		</div>
+		</a>
 	</div>
 	<div class="project_row">
-		<div class="project_col">
+		<a href="computer_vision.html" class="project_col">
 			<h2>Computer Vision</h2>
 			<h4>A short description. One to two sentances is fine. Don't write too much. All boxes must be the same size...
 			<br>
 			<img src="images/cards.png?raw=true"/>
 			</h4>
-		</div>
+		</a>
 		<div class="project_col">
 			<br>
 		</div>
