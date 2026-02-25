@@ -4,12 +4,14 @@
 
 <br>
 
-<div class="post_row">
+<div>
 		<h4>
 		<a href="https://github.com/GriffinShea/BUGMAN-ASSAULT">Download from GitHub</a> and run the EXE in build to play on Windows:<br>
 		&emsp;☞ BUGMAN-ASSAULT_build/COMP4501_Project_BUGMAN-ASSAULT.exe
 		<h4>
-		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		<br>
+		<img src="images/BUGMAN_ASSAULT.png?raw=true" style="width: 60%;"/>
+		<br>
 		<h2>Gameplay Description</h2>
 		<h4>Harvest precious resources from the surface of an alien world. Protect your base from enemy wave assaults or hunt down Bugman scouts (yellow) before they can alert the hive of your location. Expand production by securing distant resources and construct an army of tanks to wipe out the hive and finally bring an end to this brutal war...
 		</h4>
