@@ -61,7 +61,7 @@
 	<a id="Research"></a>
 	<h1>Research Projects</h1>
 	<div class="project_row">
-		<a href="https://github.com/GriffinShea/Generative-Algorithm-for-Quantum-Phase-Estimation" class="project_col">
+		<a href="/downloads/QPE_Report.pdf" class="project_col">
 			<h2>Quantum Phase Estimation</h2>
 			<h3>A report on the quantum phase estimation (QPE) algorithm for solving linear systems of equations where we develop a recursive definition of the inverse quantum Fourier transform to generate the QPE gate configuration for arbitrarily sized problems.<br></h3>
 			<img src="images/quantum.png?raw=true"/>
