@@ -13,7 +13,7 @@
 
 <div>
 		
-		<img src="images/BUGMAN_ASSAULT.png?raw=true" style="width: 60%;"/>
+		<img src="images/BUGMAN_ASSAULT.png?raw=true" style="width: 100vw;"/>
 		
 		<br>
 		
