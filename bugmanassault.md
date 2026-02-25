@@ -4,6 +4,7 @@
 
 <br>
 
+<div class="post_row">
 		<h4>
 		<a href="https://github.com/GriffinShea/BUGMAN-ASSAULT">Download from GitHub<a> and run the EXE in build to play on Windows:<br>
 		&emsp;☞ BUGMAN-ASSAULT_build/COMP4501_Project_BUGMAN-ASSAULT.exe
@@ -22,6 +23,7 @@
 		</h4>
 		
 		<br>
+</div>
 
 <div class="post_row">
 	<div class="post_col_s">
