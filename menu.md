@@ -1,14 +1,21 @@
 <h1>DEVELOPMENT PORTFOLIO</h1>
 <h4>
 	Here, you will find a collection of my projects.<br>
+	&emsp;☞ <a href="#Electors">Electors, The Occult Card Drafting Game</a><br>
 	&emsp;☞ <a href="#Game">Game Projects</a><br>
 	&emsp;☞ <a href="#Research">Research Projects</a><br>
+	<!--
 	&emsp;☞ <a href="#Essays">Essays</a>
+	-->
 </h4>
 
 <br>
 
 <div class="project_section">
+	
+	<a id="Electors"></a>
+	<h1>Electors, The Occult Card Drafting Game</h1>
+	<h4>&emsp;☞ <a href="https://www.electors.ca/">Visit the Website by Clicking Here</a><br>
 	
 	<a id="Game"></a>
 	<h1>Game Projects</h1>
@@ -98,6 +105,7 @@
 		</div>
 	</div>
 	
+	<!--
 	<a id="Essays"></a>
 	<h1>Essays</h1>
 	<h4>
@@ -111,5 +119,6 @@
 		&emsp;☞ <a href="#Research">Research Projects</a><br>
 		&emsp;☞ <a href="#Essays">Essays</a>
 	</h4>
+	-->
 	
 </div>
