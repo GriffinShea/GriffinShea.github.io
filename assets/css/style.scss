@@ -33,6 +33,19 @@ body {
 	background-color: #FF7F7F;
 }
 
+.post_row {
+
+}
+.post_col_s {
+	width: 40vw;
+}
+.post_col_m {
+	width: 60vw;
+}
+.post_col_b {
+	width: 100vw;
+}
+
 
 a {
 	color: #1A6F87;
@@ -41,14 +54,14 @@ a:hover {
 	color: #D92323;
 }
 
-h1, h2, h3 {
+h1, h2 {
   padding: 5px;
   background-color: #D97F23;
   color: #393939;
   margin: 0 0 0px;
 }
 
-h4, h5 {
+h3, h4, h5 {
   padding: 5px;
   background-color: #FFC07F;
   margin: 0 0 0px;
