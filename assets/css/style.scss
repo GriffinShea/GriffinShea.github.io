@@ -34,16 +34,16 @@ body {
 }
 
 .post_row {
-
+	display: flex;
 }
 .post_col_s {
-	width: 40vw;
+	width: 40%;
 }
 .post_col_m {
-	width: 60vw;
+	width: 60%;
 }
 .post_col_b {
-	width: 100vw;
+	width: 100%;
 }
 
 
