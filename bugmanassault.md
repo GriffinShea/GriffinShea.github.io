@@ -2,16 +2,20 @@
 # BUGMAN ASSAULT
 ### [DESIGN REPORT](/downloads/DesignDocumentation.pdf)  •  [DOWNLOAD](https://github.com/GriffinShea/BUGMAN-ASSAULT)
 
+<h1>BUGMAN ASSAULT</h1>
+<h4>
+	Download from GitHub and run the EXE in build to play on Windows:<br>
+	&emsp;☞ <a href="https://github.com/GriffinShea/BUGMAN-ASSAULT">DOWNLOAD</a>&emsp;☞ BUGMAN-ASSAULT_build/COMP4501_Project_BUGMAN-ASSAULT.exe<br>
+	&emsp;☞ <a href="/downloads/DesignDocumentation.pdf">DESIGN REPORT</a><br>
+</h4>
+
 <br>
 
 <div>
 		
 		<img src="images/BUGMAN_ASSAULT.png?raw=true" style="width: 60%;"/>
+		
 		<br>
-		<h4>
-		<a href="https://github.com/GriffinShea/BUGMAN-ASSAULT">Download from GitHub</a> and run the EXE in build to play on Windows:<br>
-		&emsp;☞ BUGMAN-ASSAULT_build/COMP4501_Project_BUGMAN-ASSAULT.exe
-		<h4>
 		
 		<br>
 		
