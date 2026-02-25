@@ -10,7 +10,7 @@
 
 <div>
 		
-		<img src="images/BUGMAN_ASSAULT.png?raw=true" style="width: 100vw;"/>
+		<img src="images/BUGMAN_ASSAULT.png?raw=true" style="width: 100vw; max-width: 800px;"/>
 		
 		<br>
 		
