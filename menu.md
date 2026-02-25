@@ -15,7 +15,9 @@
 	
 	<a id="Electors"></a>
 	<h1>Electors, The Occult Card Drafting Game</h1>
-	<h4>&emsp;☞ <a href="https://www.electors.ca/">Visit the Website by Clicking Here</a><br>
+	<h4>&emsp;☞ <a href="https://www.electors.ca/">Visit the Website by Clicking Here</a><br></h4>
+	
+	<br>
 	
 	<a id="Game"></a>
 	<h1>Game Projects</h1>
@@ -89,6 +91,7 @@
 			</h4>
 		</a>
 	</div>
+	<!--
 	<div class="project_row">
 		<a href="computer_vision.html" class="project_col">
 			<h2>Computer Vision</h2>
@@ -104,6 +107,7 @@
 			<br>
 		</div>
 	</div>
+	-->
 	
 	<!--
 	<a id="Essays"></a>
