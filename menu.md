@@ -62,10 +62,10 @@
 	<h1>Research Projects</h1>
 	<div class="project_row">
 		<a href="https://github.com/GriffinShea/Generative-Algorithm-for-Quantum-Phase-Estimation" class="project_col">
-			<h2>QPE</h2>
+			<h2>Quantum Phase Estimation</h2>
 			<h3>A report on the quantum phase estimation (QPE) algorithm for solving linear systems of equations where we develop a recursive definition of the inverse quantum Fourier transform to generate the QPE gate configuration for arbitrarily sized problems.<br></h3>
 			<img src="images/quantum.png?raw=true"/>
-			<h3>Quantum Logic Gates • MatLab • Quantum Information Toolkit (QIT) • Research Project and Report<br></h3>
+			<h3>Quantum Logic Gates • MatLab • Quantum Information Toolkit (QIT) • Research Project and <a href="/downloads/QPE_REPORT.pdf">Report</a><br></h3>
 		</a>
 		<a href="multi-agent_systems.html" class="project_col">
 			<h2>Multi-Agent Systems</h2>
