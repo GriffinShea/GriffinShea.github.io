@@ -9,10 +9,12 @@ body {
 }
 
 .projectsSection {
-	display: inline-grid;
+	display: flex;
+	flex-wrap: wrap;
 }
 .projectBox {
-	width: 300px;
+	min-width: 300px;
+	max-width: 400px
 	border: black;
     border-style: ridge;
     border-width: 4px;
@@ -96,5 +98,5 @@ h3, h4, h5 {
 }
 
 section {
-  width: 60vw;
+  width: 80vw;
 }
