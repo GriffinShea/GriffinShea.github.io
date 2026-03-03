@@ -11,6 +11,32 @@
 
 <br>
 
+<a id="Game"></a>
+<h1>Game Projects</h1>
+	
+<div class="projectsSection">
+	<a href="bugmanassault.html" class="projectBox">
+		<h2>Bugman Assault</h2>
+		<h3>Lead the military invasion of Bugulon Prime.<br></h3>
+		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		<h3>Unity • C# • Autonomous and Intelligent Agents • Hierarchical and Interactive Component Scripting • 9 Unique Units with Design Documentation • Challenging Real-Time Strategy<br></h3>
+	</a>
+	<a href="bugmanassault.html" class="projectBox">
+		<h2>Bugman Assault</h2>
+		<h3>Lead the military invasion of Bugulon Prime.<br></h3>
+		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		<h3>Unity • C# • Autonomous and Intelligent Agents • Hierarchical and Interactive Component Scripting • 9 Unique Units with Design Documentation • Challenging Real-Time Strategy<br></h3>
+	</div>
+	<a href="bugmanassault.html" class="projectBox">
+		<h2>Bugman Assault</h2>
+		<h3>Lead the military invasion of Bugulon Prime.<br></h3>
+		<img src="images/BUGMAN_ASSAULT.png?raw=true"/>
+		<h3>Unity • C# • Autonomous and Intelligent Agents • Hierarchical and Interactive Component Scripting • 9 Unique Units with Design Documentation • Challenging Real-Time Strategy<br></h3>
+	</a>
+</div>
+
+<br>
+
 <div class="project_section">
 	
 	<a id="Electors"></a>
