@@ -8,6 +8,28 @@ body {
   font-size: 100%;
 }
 
+.projectsSection {
+	display: flex;
+}
+.projectBox {
+	width: 200px;
+	border: black;
+    border-style: ridge;
+    border-width: 4px;
+	margin: 10px;
+	background-color: #FFC07F;
+}
+.projectBox:hover h2 {
+	background-color: #D92323;
+}
+.projectBox:hover h3, h4, h5 {
+	background-color: #FF7F7F;
+}
+.projectBox:hover {
+	background-color: #FF7F7F;
+}
+
+
 
 .project_section {
 }
