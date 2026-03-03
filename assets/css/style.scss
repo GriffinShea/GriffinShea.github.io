@@ -9,10 +9,10 @@ body {
 }
 
 .projectsSection {
-	display: flex;
+	display: inline-grid;
 }
 .projectBox {
-	width: 200px;
+	width: 300px;
 	border: black;
     border-style: ridge;
     border-width: 4px;
