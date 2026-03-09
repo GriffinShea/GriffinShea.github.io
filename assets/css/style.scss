@@ -13,7 +13,7 @@ body {
 	flex-wrap: wrap;
 }
 .projectBox {
-	width: 400px;
+	width: 360px;
 	border: black;
     border-style: ridge;
     border-width: 4px;
@@ -103,7 +103,7 @@ section {
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 400px;
+  width: 300px;
   background-color: #FFC07F;
   position: fixed;
   overflow: auto;
@@ -127,7 +127,7 @@ section {
 }
 
 div.content {
-  margin-left: 400px;
+  margin-left: 300px;
   padding: 1px 16px;
   height: 1000px;
 }
