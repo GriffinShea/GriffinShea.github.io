@@ -13,7 +13,7 @@ body {
 	flex-wrap: wrap;
 }
 .projectBox {
-	width: 360px;
+	width: 400px;
 	border: black;
     border-style: ridge;
     border-width: 4px;
@@ -137,8 +137,8 @@ div.content {
     width: 100%;
     position: relative;
   }
-  .sidebar a {float: left;}
   div.content {margin-left: 0;}
+  .projectBox { width: auto; }
 }
 
 @media screen and (min-width: 1000px) {
