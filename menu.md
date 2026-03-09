@@ -14,7 +14,7 @@
 <a id="Game"></a>
 <h1>Game Projects</h1>
 	
-<div class="projectsSection">
+<div class="psSection">
 	<a href="bugmanassault.html" class="projectBox">
 		<h2>Bugman Assault</h2>
 		<h3>Lead the military invasion of Bugulon Prime.<br></h3>
@@ -48,7 +48,7 @@
 	<a id="Game"></a>
 	<h1>Game Projects</h1>
 	
-	<div class="projectsSection">
+	<div class="psSection">
 		<a href="bugmanassault.html" class="projectBox">
 			<h2>Bugman Assault</h2>
 			<h3>Lead the military invasion of Bugulon Prime.<br></h3>
