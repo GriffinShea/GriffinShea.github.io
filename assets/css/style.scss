@@ -104,7 +104,7 @@ section {
   margin: 0;
   padding: 0;
   width: 400px;
-  background-color: #f1f1f1;
+  background-color: #FFC07F;
   position: fixed;
   overflow: auto;
 }
@@ -132,7 +132,7 @@ div.content {
   height: 1000px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .sidebar {
     width: 100%;
     position: relative;
@@ -141,7 +141,7 @@ div.content {
   div.content {margin-left: 0;}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .sidebar a {
     text-align: center;
     float: none;
