@@ -31,9 +31,10 @@ body {
 }
 
 
-.videoContainer {
+.videoContainer video {
 	max-width: 600px;
 	max-height: 450px;
+	object-fit: contain;
 }
 
 
