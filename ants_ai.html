@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRIFFIN SHEA | PORTFOLIO</title>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="sidebar">
+	<h1>GRIFFIN SHEA</h1>
+	<h4>
+		Carleton University Graduate<br>
+		B.C.S. Honours<br>
+		Computer Game Development<br>
+		Minor in History<br>
+		<br>
+		This page showcases a few of my projects.<br>
+		All work is my own unless noted otherwise.<br>
+		<br>
+		Contact me:<br>
+		<a href="https://www.linkedin.com/in/griffinshea2022/"><img src="images/linkedin.png" alt="via LinkedIn" width="200"></a>
+	</h4>
+	<br>
+</div>
+
+<div class="content">
+
+	<h1>
+		<a href="index.html">&#127968 Home</a><br>
+		&emsp;&#8627 Ants A.I.
+	</h1>
+	<h4>
+		GitHub repository (see README for run instructions):<br>
+		&emsp;☞ <a href="https://github.com/GriffinShea/Astrosurfer-3D-Engine">DOWNLOAD</a><br>
+	</h4>
+
+	<br>
+
+	<div class="videoContainer">
+		<iframe
+			src="https://www.youtube.com/embed/ZB8qirLxm30">
+		</iframe>
+		<p>
+			"River of Io" Kevin MacLeod (incompetech.com)<br>
+			Licensed under Creative Commons: By Attribution 4.0 License<br>
+			http://creativecommons.org/licenses/by/4.0/
+		</p>
+	</div>
+	
+		<br>
+		<br>
+	
+		<h2>Introduction:</h2>
+		<h4>This project improves upon an earlier project that was submitted as an intro to A.I. course project by myself and a partner, Alexandra Coscuig. We were inspired by another project by johnBuffer, who created a simulation of ants that coordinate food acquisition via pheromone trail communication:  (https://www.youtube.com/watch?v=81GQNPJip2Y). The objective of our project was to do the same thing only that rather than programming the ants’ behaviour manually, we would use machine learning with neural networks and a genetic training algorithm to see whether the ants would learn these behaviours on their own. 
+		</h4>
+		<br>
+		<h2>The Simulation:</h2>
+		<h4>The first thing to do was setup our simulation. The world our ants inhabit is defined by the World class and looks like this:
+		</h4>
+		<img src="images/ants_ai/p1/world.png?raw=true"/>
+		<h4>
+			At the beginning of the simulation, the ants are the little black pixels hanging around the edge of the hive, which is the pink square section at the center of the grid. Piles of food are dropped randomly around the edge of world (shown in green). Each step in the simulation, the ants gather information from their surroundings, think, and take actions. We will describe them in more detail below. When an ant wanders over a food pixel, it picks up the food and turns white to show it is carrying food. When an ant carrying food walks onto the hive, it turns black again, to show it has delivered the food. They also have a capability to lay down two types of signals – A and B – for their friends to smell. One space in the grid can hold both a A and a B signal. Each signal carries a value from -1 to 1. In the image, the A signal determines the redness of the pixel and the B signal determines the blueness of the pixel.
+			<br><br>
+			When things get going, it looks something like this:
+		</h4>
+		<img src="images/ants_ai/p1/world2.png?raw=true"/>
+		<h2>The Ants Sense, Think, and Act:</h2>
+		<h4>A <a href="https://en.wikipedia.org/wiki/Neural_network_(machine_learning)">neural network</a> is a computational model inspired by nature. They are a simple yet powerful tool in artificial intelligence. We use them to control <a href="https://en.wikipedia.org/wiki/Intelligent_agent">intelligent agents</a>, such as our ants who sense, think, and act each step of the simulation. The ants’ neural networks are defined by the following diagram, which will be explained in the section below:
+		</h4>
+		<img src="images/ants_ai/p1/nn.png?raw=true"/>
+		<h2>Sensing:</h2>
+		<h4>
+			On the left are the sensory, or input, neurons, which define what the ant senses about its environment:
+			<br><br>
+			<ul>
+				<li>checkSignalA/checkSignalB --> tells the ant whether or not it is standing on a signal (-1 or 1)</li>
+				<li>readSignalA/readSignalB --> tells the ant the value of the signals it is standing on (-1 to 1)</li>
+				<li>checkWall --> tells the ant if the space in front of it is a wall (-1 or 1)</li>
+				<li>hasFood --> tells the ant whether it is carrying food (-1 or 1)</li>
+				<li>direction --> tells the ant what direction it is facing (8 directions normalized to -1 to 1)</li>
+				<li>RNG --> a random number from -1 to 1 (simulating random stimuli)</li>
+				<li>STP --> how far along the simulation is, normalized from -1 at the start of the simulation to 1 at the end of the simulation (kind of like the age of the ant)</li>
+				<li>OSC --> a value oscillating from -1 to 1 every 20 steps (simulating the ant's internal clock)</li>
+			</ul>
+			<br><br>
+			Each step of the simulation, all ants sense by simply reading information from the world. It looks like this in code:
+		</h4>
+		<img src="images/ants_ai/p1/sense.png?raw=true"/>
+		<h2>Thinking:</h2>
+		<h4>Thinking for our ants means computing the neural network. This involves feeding the values from input through the hidden layer and finally to the actuator, or output layer. The values of the input neurons are set during the sensing step. Then, the hidden neuron values are calculated. Our neural network is fully connected, meaning each node in one layer connects to each node in the next layer. Each node connection has an associated weight with a value determined by the ant’s genome, which varies throughout training (this will be discussed more later). To calculate the value for a hidden node, sum the values of the connected input nodes after multiplying them by the associated connection’s weight, then apply an activation function to the sum. In a simple neural network, the calculation looks like this:
+		</h4>
+		<img src="images/ants_ai/p1/calc.png?raw=true"/>
+		<h4>
+			After calculating all the hidden nodes, the same process is repeated to feed the hidden layer’s values into the output layer. The activation function we use is tanh, which normalizes the values for the hidden nodes between -1 and 1. In code, it looks like this:
+			<br><br>
+			(G_SN = # of sensory/input nodes, G_HN = # of hidden nodes, G_AN = # of actuator/output nodes)
+		</h4>
+		<img src="images/ants_ai/p1/think.png?raw=true"/>
+		<h2>Acting:</h2>
+		<h4>
+			Once the actuator nodes have been calculated, we simply read these values to determine the ant’s actions for that step of the simulation. There are only seven things they can do, as we consider picking up and delivering food to the hive as automatic. 
+			<br><br>
+			<ul>
+				<li>dropSignalA/dropSignalB --> if value>0, drop A/B signal</li>
+				<li>signalValueA/signalValueB --> determines the value of a dropped A/B signal</li>
+				<li>turnCW: if value>0 --> rotate the ant’s direction clockwise</li>
+				<li>turnCCW: if value>0 --> rotates the ant’s direction counterclockwise</li>
+				<li>moveForward: if value>0 --> move the ant forward one space in it’s current direction</li>
+			</ul>
+			<br><br>
+			In code:
+		</h4>
+		<img src="images/ants_ai/p1/act.png?raw=true"/>
+	<br>
+
+</div>
+
+</body>
+</html>
