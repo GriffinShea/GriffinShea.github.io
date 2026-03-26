@@ -53,7 +53,10 @@
 		<br>
 	
 		<h2>Introduction:</h2>
-		<h4>This project improves upon an earlier project that was submitted as an intro to A.I. course project by myself and a partner, Alexandra Coscuig. We were inspired by another project by johnBuffer, who created a simulation of ants that coordinate food acquisition via pheromone trail communication:  (https://www.youtube.com/watch?v=81GQNPJip2Y). The objective of our project was to do the same thing only that rather than programming the ants’ behaviour manually, we would use machine learning with neural networks and a genetic training algorithm to see whether the ants would learn these behaviours on their own. 
+		<h4>This project improves upon an earlier project that was submitted as an intro to A.I. course project by myself and a partner, Alexandra Coscuig. We were inspired by another project by johnBuffer, who created a simulation of ants that coordinate food acquisition via pheromone trail communication:
+		</h4>
+		<iframe src="https://www.youtube.com/watch?v=81GQNPJip2Y"></iframe>
+		<h4>The objective of our project was to do the same thing only that rather than programming the ants’ behaviour manually, we would use neural networks and an evolutionary algorithm and see whether the ants would learn these behaviours on their own.
 		</h4>
 		<br>
 		<h2>The Simulation:</h2>
@@ -61,18 +64,18 @@
 		</h4>
 		<img src="images/ants_ai/p1/world.png?raw=true"/>
 		<h4>
-			At the beginning of the simulation, the ants are the little black pixels hanging around the edge of the hive, which is the pink square section at the center of the grid. Piles of food are dropped randomly around the edge of world (shown in green). Each step in the simulation, the ants gather information from their surroundings, think, and take actions. We will describe them in more detail below. When an ant wanders over a food pixel, it picks up the food and turns white to show it is carrying food. When an ant carrying food walks onto the hive, it turns black again, to show it has delivered the food. They also have a capability to lay down two types of signals – A and B – for their friends to smell. One space in the grid can hold both a A and a B signal. Each signal carries a value from -1 to 1. In the image, the A signal determines the redness of the pixel and the B signal determines the blueness of the pixel.
+			At the beginning of the simulation, the ants are the little black pixels hanging around the edge of the hive, which is the pink square section at the center of the grid. Piles of food are dropped randomly around the edge of world (shown in green). Each step in the simulation, the ants gather information from their surroundings, think, and take actions. When an ant wanders over a food pixel, it picks up the food and turns white to show it is carrying food. When an ant carrying food walks onto the hive, it turns black again, to show it has delivered the food. They also have a capability to lay down two types of signals – A and B – for their friends to smell. One space in the grid can hold both an A and a B signal. Each signal carries a value from -1 to 1. In the image, the A signal determines the redness of the pixel and the B signal determines the blueness of the pixel.
 			<br><br>
 			When things get going, it looks something like this:
 		</h4>
 		<img src="images/ants_ai/p1/world2.png?raw=true"/>
 		<h2>The Ants Sense, Think, and Act:</h2>
-		<h4>A <a href="https://en.wikipedia.org/wiki/Neural_network_(machine_learning)">neural network</a> is a computational model inspired by nature. They are a simple yet powerful tool in artificial intelligence. We use them to control <a href="https://en.wikipedia.org/wiki/Intelligent_agent">intelligent agents</a>, such as our ants who sense, think, and act each step of the simulation. The ants’ neural networks are defined by the following diagram, which will be explained in the section below:
+		<h4>A <a href="https://en.wikipedia.org/wiki/Neural_network_(machine_learning)">neural network</a> is a computational model inspired by nature. They are a simple yet powerful tool in artificial intelligence. We use them to control <a href="https://en.wikipedia.org/wiki/Intelligent_agent">intelligent agents</a>, such as our ants who sense, think, and act each step of the simulation. The ants’ neural networks are defined by the following diagram.:
 		</h4>
 		<img src="images/ants_ai/p1/nn.png?raw=true"/>
 		<h2>Sensing:</h2>
 		<h4>
-			On the left are the sensory, or input, neurons, which define what the ant senses about its environment:
+			On the left are the sensory, or input, neurons, which define what an ant senses about its environment:
 			<br><br>
 			<ul>
 				<li>checkSignalA/checkSignalB --> tells the ant whether or not it is standing on a signal (-1 or 1)</li>
@@ -118,17 +121,19 @@
 			For the purpose of this evolutionary algorithm, we call the set of weights a genome. In this project, the genome is saved as a 136-character string, each character representing a weight ranging from -4 to 4 in increments of 0.5. It must be translated like so:
 		</h4>
 		<img src="images/ants_ai/p1/translation.png?raw=true"/>
-		<h4>Genetic training will involve placing the ants into the simulation, each with its own random genome or a genome of all 0s. Then, we run the simulation and award points to the ants that achieve the desired behaviours. This becomes their fitness score. An ant gets 1 point for picking up a piece of food and 2 points for delivering it to the hive.
+		<h4>Genetic training will involve placing the ants into the simulation, each with its own random genome or a genome of all 0s. Then, we run the simulation and award points to the ants that achieve the desired behaviours. This becomes their fitness score. An ant gets 1 point for picking up a piece of food and 2 points for delivering it to the hive. The evolutionary algorithm is in main.cpp:
 		</h4>
 		<img src="images/ants_ai/p1/training.png?raw=true"/>
-		<h4>At the end of the simulation, we kill off the ants that performed the worst, saving only the genomes of the best performing ants which are used to create a new generation. Think natural selection.
+		<h4>At the end of the simulation, we kill off the ants that performed the worst, saving only the genomes of the best performing ants which are used to create a next generation. Think natural selection.
 		</h4>
 		<img src="images/ants_ai/p1/selection.png?raw=true"/>
-		<h4>In order to prevent the gene pool from getting stale, we also add a couple of random mutations. It should be obvious that the ants would never get any better at accomplishing their task if we simply saved the best genome. That's why we need to mutate them somehow in order for them to get better. Another method we could use is mixing genes together, called crossover, which mimics sexual reproduction, but mutation is essential for the ants to develop new behaviours. Our method of mutation looks like this:
+		<h4>In order to prevent the gene pool from getting stale, we also add a couple of random mutations. It should be obvious that the ants would never get any better at accomplishing their task if we simply saved the best genome. That's why we need to mutate them somehow in order for them to get better. Another method we could use is mixing genes together, called crossover, which mimics sexual reproduction, but mutation is essential for the ants to develop new behaviours. Our method of mutation method looks like this:
 		</h4>
 		<img src="images/ants_ai/p1/ant_contsr.png?raw=true"/>
 		<br>
 		<img src="images/ants_ai/p1/mutation.png?raw=true"/>
+		<h2>Running The Simulation:</h2>
+		<iframe src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe>
 		
 	<br>
 
