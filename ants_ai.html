@@ -111,21 +111,23 @@
 			In code:
 		</h4>
 		<img src="images/ants_ai/p1/act.png?raw=true"/>
-		<h2>Training: The Genome, The Genetic Algorithm - Natural Selection</h2>
+		<h2>Training: The Genome, The Evolutionary Algorithm - Natural Selection</h2>
 		<h4>
-			What remains to be explained is how we set the weights in the genome in order for the ants to behave properly and accomplish their objective of collecting food and bringing it to the hive. We could set them manually to achieve the desired effect, but for a complicated neural network, that method is not typically feasible. Plus, if we were to change the ants’ sensors, actuators, objective, or environment, by, for example, building walls in the world to block their path or adding predators, we may have to redesign the entire set of weights. We want them to be adaptable. Besides, it’s more fun to watch them learn. Therefore, we will use a method of machine learning to train the ants called an <a href="https://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary/genetic algorithm</a>. 
+			What remains to be explained is how we set the weights in the genome in order for the ants to behave properly and accomplish their objective of collecting food and bringing it to the hive. We could set them manually to achieve the desired effect, but for a complicated neural network, that method is not typically feasible. Plus, if we were to change the ants’ sensors, actuators, objective, or environment, by, for example, building walls in the world to block their path or adding predators, we may have to redesign the entire set of weights. We want them to be adaptable. Besides, it’s more fun to watch them learn. Therefore, we will use a method of machine learning to train the ants called an <a href="https://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary algorithm</a>. 
 			<br><br>
-			For the purpose of the genetic training algorithm, we call the set of weights a genome. In this project, the genome is saved as a 136-character string, each character representing a weight ranging from -4 to 4 in increments of 0.5. It must be translated, as you will see below when we talk about mutation.
-			<br><br>
-			Genetic training will involve placing the ants into the simulation, each with its own random genome or a genome of all 0s. Then, we run the simulation and award points to the ants that achieve the desired behaviours. This becomes their fitness score. An ant gets 1 point for picking up a piece of food and 2 points for delivering it to the hive.
+			For the purpose of this evolutionary algorithm, we call the set of weights a genome. In this project, the genome is saved as a 136-character string, each character representing a weight ranging from -4 to 4 in increments of 0.5. It must be translated like so:
+		</h4>
+		<img src="images/ants_ai/p1/translation.png?raw=true"/>
+		<h4>Genetic training will involve placing the ants into the simulation, each with its own random genome or a genome of all 0s. Then, we run the simulation and award points to the ants that achieve the desired behaviours. This becomes their fitness score. An ant gets 1 point for picking up a piece of food and 2 points for delivering it to the hive.
 		</h4>
 		<img src="images/ants_ai/p1/training.png?raw=true"/>
-		<h4>At the end of the simulation, we kill off the ants that performed the worst, saving only the genomes of the best performing ants which are used to create a new generation, just like natural selection.
+		<h4>At the end of the simulation, we kill off the ants that performed the worst, saving only the genomes of the best performing ants which are used to create a new generation. Think natural selection.
 		</h4>
 		<img src="images/ants_ai/p1/selection.png?raw=true"/>
-		<h4>In order to prevent the gene pool from getting stale, we also add a couple of random mutations. Had we begun with the all 0s genome, it should be obvious that the ants would never get any better at accomplishing their task. That's why we need to mutate them somehow in order for them to get better. Another method we can use is mixing genes together, called crossover which mimics sexual reproduction, but mutation is essential for the ants to develop new behaviours. Our method of mutation looks like this:
+		<h4>In order to prevent the gene pool from getting stale, we also add a couple of random mutations. It should be obvious that the ants would never get any better at accomplishing their task if we simply saved the best genome. That's why we need to mutate them somehow in order for them to get better. Another method we could use is mixing genes together, called crossover, which mimics sexual reproduction, but mutation is essential for the ants to develop new behaviours. Our method of mutation looks like this:
 		</h4>
 		<img src="images/ants_ai/p1/ant_contsr.png?raw=true"/>
+		<br>
 		<img src="images/ants_ai/p1/mutation.png?raw=true"/>
 		
 	<br>
