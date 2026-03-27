@@ -32,7 +32,7 @@
 		&emsp;&#8627 Ants A.I.
 	</h1>
 	<h4>
-		GitHub repository (see README for run instructions):<br>
+		GitHub repository:<br>
 		&emsp;☞ <a href="https://github.com/GriffinShea/Astrosurfer-3D-Engine">DOWNLOAD</a><br>
 	</h4>
 
@@ -45,7 +45,14 @@
 	<div class="videoContainer"><iframe allow="fullscreen;" src="https://www.youtube.com/embed/81GQNPJip2Y"></iframe></div>
 	<h4>The objectie of our project was to do the same thing only that rather than programming the ants’ behaviour manually, we would use neural networks and an evolutionary algorithm and see whether the ants would learn these behaviours on their own. The final result of our work is this:
 	</h4>
-	<div class="videoContainer"><iframe allow="fullscreen;" src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe></div>
+	<div class="videoContainer">
+		<iframe allow="fullscreen;" src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe>
+		<p>
+			"Ebbs and Flows" Kevin MacLeod (incompetech.com)<br>
+			Licensed under Creative Commons: By Attribution 4.0 License<br>
+			http://creativecommons.org/licenses/by/4.0/
+		</p>
+	</div>
 	<br>
 	<h2>The Simulation:</h2>
 	<h4>The first thing to do was setup our simulation. The world our ants inhabit is defined by the World class and looks like this:
@@ -121,7 +128,14 @@
 	<br>
 	<img src="images/ants_ai/p1/mutation.png?raw=true"/>
 	<h2>Running The Simulation:</h2>
-	<div class="videoContainer"><iframe allow="fullscreen;" src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe></div>
+	<div class="videoContainer">
+		<iframe allow="fullscreen;" src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe>
+		<p>
+			"Ebbs and Flows" Kevin MacLeod (incompetech.com)<br>
+			Licensed under Creative Commons: By Attribution 4.0 License<br>
+			http://creativecommons.org/licenses/by/4.0/
+		</p>
+	</div>
 	<h4>Watching the video, you will see the ants training. Every 10 generations, we get to see what they’re up to. Quickly they develop wandering behaviours and start putting down signals. It’s quite amusing to watch them paint over the frame. Eventually, after 80 generations they begin to lock into a strategy which involves running in straight lines to the edge of the world and then following the perimeter, where they are sure to find some food. It looks like some of them learn to turn when they run over a trail left by another ant and this allows them to cover most of the world like a canvas, avoiding areas that have already been searched. When bringing food back to the hive, rather than following signals, it looks like their best strategy is to reach one of the corners and dart across the diagonal of the world like a highway, because the hive is always in the center. However, they rarely ever reach a cumulative fitness score above 30.
 	</h4>
 	<h2>Moving Forward - Room for Improvement:</h2>
@@ -134,7 +148,22 @@
 		<br><br>
 		The following demos have incorporated a few changes of these. I've added two more oscillators, increased the ants' smelling range, and fixed the directional encoding as well as a number of bugs in the first iteration:
 	</h4>
-	<div class="videoContainer"><iframe allow="fullscreen;" src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe></div>
+	<div class="videoContainer">
+		<iframe allow="fullscreen;" src="https://www.youtube.com/embed/x2la4WYBtTc"></iframe>
+		<p>
+			"Ancient Winds" Kevin MacLeod (incompetech.com)<br>
+			Licensed under Creative Commons: By Attribution 4.0 License<br>
+			http://creativecommons.org/licenses/by/4.0/
+		</p>
+	</div>
+	<div class="videoContainer">
+		<iframe allow="fullscreen;" src="https://www.youtube.com/embed/7Pch9k4OGOc"></iframe>
+		<p>
+			"Magic Escape Room" Kevin MacLeod (incompetech.com)<br>
+			Licensed under Creative Commons: By Attribution 4.0 License<br>
+			http://creativecommons.org/licenses/by/4.0/
+		</p>
+	</div>
 	<h4>There is still much work to be done! If you've made it this far, thank you for reading. I hope that you now understand how neural networks and evolutionary algorithms can be used to train them. The code for this project is kept in the repository at the top of the page. Feel free to download and modify it yourself. Maybe you can succeed in training the ants to behave as they do in nature. Send me a message on LinkedIn or GitHub with anything you make, I'd love to see it. Have a wonderful day!
 	</h4>
 	<br>
