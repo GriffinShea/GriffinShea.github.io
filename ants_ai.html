@@ -42,10 +42,10 @@
 	<h2>Introduction:</h2>
 	<h4>This project improves upon an earlier project that was submitted as an intro to A.I. course project by myself and a partner, Alexandra Coscuig. We were inspired by another project by johnBuffer, who created a simulation of ants that coordinate food acquisition via pheromone trail communication:
 	</h4>
-	<div class="videoContainer"><iframe src="https://www.youtube.com/embed/81GQNPJip2Y"></iframe></div>
+	<div class="videoContainer"><iframe allow="fullscreen;" src="https://www.youtube.com/embed/81GQNPJip2Y"></iframe></div>
 	<h4>The objectie of our project was to do the same thing only that rather than programming the ants’ behaviour manually, we would use neural networks and an evolutionary algorithm and see whether the ants would learn these behaviours on their own. The final result of our work is this:
 	</h4>
-	<div class="videoContainer"><iframe src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe></div>
+	<div class="videoContainer"><iframe allow="fullscreen;" src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe></div>
 	<br>
 	<h2>The Simulation:</h2>
 	<h4>The first thing to do was setup our simulation. The world our ants inhabit is defined by the World class and looks like this:
@@ -121,7 +121,22 @@
 	<br>
 	<img src="images/ants_ai/p1/mutation.png?raw=true"/>
 	<h2>Running The Simulation:</h2>
-	<div class="videoContainer"><iframe src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe></div>
+	<div class="videoContainer"><iframe allow="fullscreen;" src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe></div>
+	<h4>Watching the video, you will see the ants training. Every 10 generations, we get to see what they’re up to. Quickly they develop wandering behaviours and start putting down signals. It’s quite amusing to watch them paint over the frame. Eventually, after 80 generations they begin to lock into a strategy which involves running in straight lines to the edge of the world and then following the perimeter, where they are sure to find some food. It looks like some of them learn to turn when they run over a trail left by another ant and this allows them to cover most of the world like a canvas, avoiding areas that have already been searched. When bringing food back to the hive, rather than following signals, it looks like their best strategy is to reach one of the corners and dart across the diagonal of the world like a highway, because the hive is always in the center. However, they rarely ever reach a cumulative fitness score above 30.
+	</h4>
+	<h2>Moving Forward - Room for Improvement:</h2>
+	<h4>
+		There are several ways in which we can make improvements upon the initial iteration of this project. An obvious flaw is that the food is always at the edge of the world, which encourages the running around the edge behaviour. The ants also never learn to plant signals the way we intended and there is a good reason why – it’s not directly incentivised by the fitness score. Let’s imagine an ant was able to follow another ant’s trail to a food source. The ant placing the signals does not get rewarded for that behaviour, even if the second ant will eventually reach the food. We may need to implement some sort of altruistic reward for placing signals. They will also all need to find some sort of agreement on the meaning for signals. Whether that can be trained via the evolutionary algorithm as it is currently setup is hard to say.
+		<br><br>
+		Another flaw is the encoding for the ant’s current direction as a sensory node. The direction of the ant is a value from 0 to 7 (representing 8 cardinal directions), but it is translated into a range between -1 and 1, meaning that at some point in turning the value for that input node jumps from -1 to 1 (or vice versa). A better method would be to use two input nodes, one representing the North-South direction of the ant, and the other representing the East-West direction of the ant. It should also be noted that the actuator nodes tell the ant whether it should turn clockwise or counterclockwise, which doesn’t really map to cardinal directions. 
+		<br><br>
+		There are several other ways that improvements could be made. The ants can only smell the pheromone on their space, but in future we could allow them to smell the spaces adjacent to them as well. We could also make a number of modifications to the neural network itself. Adding more layers of hidden nodes could allow for more complicated thinking and behaviours. We could also add memory by giving the hidden nodes a weighted connection to themselves, carrying over the value from the previous simulation step. We can also swap out the activation function and see if it makes a difference.
+		<br><br>
+		The following demos have incorporated a few changes of these. I've added two more oscillators, increased the ants' smelling range, and fixed the directional encoding as well as a number of bugs in the first iteration:
+	</h4>
+	<div class="videoContainer"><iframe allow="fullscreen;" src="https://www.youtube.com/embed/m4uD9RqDo1M"></iframe></div>
+	<h4>There is still much work to be done! If you've made it this far, thank you for reading. I hope that you now understand how neural networks and evolutionary algorithms can be used to train them. The code for this project is kept in the repository at the top of the page. Feel free to download and modify it yourself. Maybe you can succeed in training the ants to behave as they do in nature. Send me a message on LinkedIn or GitHub with anything you make, I'd love to see it. Have a wonderful day!
+	</h4>
 	<br>
 
 </div>
