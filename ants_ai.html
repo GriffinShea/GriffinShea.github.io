@@ -148,6 +148,8 @@
 	</div>
 	<h4>This demo goes all the way up to generation 1000, showing every 100th generation. There are more ants in this simulation. As you can see, the results are the same. The cumulative fitness score (printed after the "." in the console each generation) plateaus early on.
 	</h4>
+		<br>
+		<br>
 	<h2>Moving Forward - Room for Improvement:</h2>
 	<h4>
 		There are several ways in which we can make improvements upon the initial iteration of this project. An obvious flaw is that the food is always at the edge of the world, which encourages the running around the edge behaviour. The ants also never learn to plant signals the way we intended and there is a good reason why – it’s not directly incentivised by the fitness score. Let’s imagine an ant was able to follow another ant’s trail to a food source. The ant placing the signals does not get rewarded for that behaviour, even if the second ant will eventually reach the food. We may need to implement some sort of altruistic reward for placing signals. They will also all need to find some sort of agreement on the meaning for signals. Whether that can be trained via the evolutionary algorithm as it is currently setup is hard to say.
